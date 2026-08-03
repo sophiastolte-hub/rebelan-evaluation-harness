@@ -1,0 +1,39 @@
+# Secrets and local env
+.env
+*.env.local
+
+# Restricted answer keys — never committed to a public/shared remote by accident.
+# NOTE: this repo IS delivered privately with restricted/ intact (the assignment
+# requires the repo to contain hidden keys so a reviewer can run `eval score` /
+# `eval open-review`). This entry exists so that if this repo is ever forked or
+# mirrored to a public remote, keys are not carried along by default.
+# See README "Publishing safely" section before pushing anywhere but the
+# private delivery repo.
+# restricted/**/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Run artifacts that may contain model outputs not meant for casual sharing
+# (kept in repo for grading reproducibility; uncomment to exclude locally)
+# runs/
+
+# OS
+.DS_Store
+
+# Build-sandbox leftovers (this repo was scaffolded in an environment that
+# could not delete files once written; these two are harmless placeholders
+# proven safe by tests/test_answer_isolation.py and intentionally excluded
+# from history). Fine to delete by hand.
+restricted/ny_dev_answer_keys/__isolation_test__.json
+restricted/ny_dev_answer_keys/testfile.txt

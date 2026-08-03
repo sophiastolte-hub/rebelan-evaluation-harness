@@ -1,0 +1,74 @@
+{
+  "case_id": "NYDEV-000",
+  "synthetic": true,
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "SYNTHETIC-0000",
+    "url": "https://example.invalid/synthetic-fixture",
+    "access_date": "2026-08-01",
+    "source_snapshot_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "40-49",
+    "gender": "female",
+    "diagnosis_summary": "Chronic migraine, synthetic fixture."
+  },
+  "request": {
+    "item_at_issue": "Brand-name CGRP inhibitor for chronic migraine prophylaxis",
+    "requested_disposition": "Coverage approval for the requested medication"
+  },
+  "denial_rationale": "Insurer stated member had not completed a documented trial of two preferred formulary alternatives before requesting the non-preferred medication.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Member was prescribed a preferred formulary migraine preventive for 8 weeks with inadequate response, per prescriber note.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Member experienced a documented adverse reaction to a second preferred formulary alternative.",
+      "provenance_ref": "R002"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "6 months before denial",
+      "description": "Trial of preferred alternative #1 initiated."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "4 months before denial",
+      "description": "Trial of preferred alternative #2 initiated, discontinued after adverse reaction."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Prescriber clinical note documenting both trials and outcomes",
+      "available_to_model": true
+    }
+  ],
+  "unknowns": [
+    "Exact plan formulary tier language for the requested medication",
+    "Whether a formulary exception process was already attempted"
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "synthetic-fixture.txt",
+      "source_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "span": "lines 1-4"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "synthetic-fixture.txt",
+      "source_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "span": "lines 5-8"
+    }
+  ]
+}

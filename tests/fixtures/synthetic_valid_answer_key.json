@@ -1,0 +1,23 @@
+{
+  "case_id": "NYDEV-000",
+  "actual_outcome": "overturned",
+  "reviewer_rationale": "The external reviewer found the documented adverse reaction to the second preferred alternative satisfied the step-therapy exception criteria under the plan's own policy.",
+  "decisive_facts": [
+    "Documented adverse reaction to preferred alternative #2 met the plan's step-therapy exception criteria."
+  ],
+  "missing_or_weak_evidence": [
+    "No pharmacy claims data was submitted to corroborate the prescriber's clinical note."
+  ],
+  "cited_authorities": [
+    "Plan step-therapy exception policy, section 4.2 (synthetic fixture citation)"
+  ],
+  "outcome_revealing_phrases_removed": [
+    "the denial was overturned",
+    "therefore the denial was wrong from the start"
+  ],
+  "source_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "preparer": "synthetic_fixture_generator",
+  "reviewer": "fresh_ai_session",
+  "approval_status": "approved",
+  "founder_reviewed": false
+}

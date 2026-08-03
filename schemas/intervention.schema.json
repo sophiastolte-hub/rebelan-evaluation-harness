@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rebelan.ai/schemas/intervention.schema.json",
+  "title": "Intervention Event",
+  "description": "One discrete human correction/action logged against a model output. Appended to runs/<run_id>/interventions.jsonl (one JSON object per line).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "intervention_id",
+    "run_id",
+    "case_id",
+    "stage",
+    "actor_role",
+    "category",
+    "severity",
+    "minutes",
+    "original",
+    "corrected",
+    "reason",
+    "automatable",
+    "ai_work_preserved"
+  ],
+  "properties": {
+    "intervention_id": { "type": "string", "pattern": "^INT-[0-9]{4,}$" },
+    "run_id": { "type": "string", "minLength": 1 },
+    "case_id": { "type": "string", "pattern": "^(NYDEV|NYVAL|CACHAL)-[0-9]{3}$" },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "case_extraction",
+        "packet_masking",
+        "prompt_authoring",
+        "evidence_analysis",
+        "draft_review",
+        "scoring",
+        "report"
+      ]
+    },
+    "actor_role": { "type": "string", "enum": ["student_reviewer", "appeals_expert", "founder"] },
+    "category": {
+      "type": "string",
+      "enum": [
+        "factual_correction",
+        "missing_evidence",
+        "unsupported_source",
+        "procedural",
+        "safety",
+        "usability",
+        "system"
+      ]
+    },
+    "severity": { "type": "integer", "minimum": 0, "maximum": 4 },
+    "minutes": { "type": "number", "minimum": 0 },
+    "original": { "type": "string", "description": "Short operational summary. Never paste PHI." },
+    "corrected": { "type": "string", "description": "Short operational summary. Never paste PHI." },
+    "reason": { "type": "string", "minLength": 1 },
+    "automatable": { "type": "string", "enum": ["yes", "no", "uncertain"] },
+    "ai_work_preserved": {
+      "type": "string",
+      "description": "Percentage or categorical estimate of how much of the AI's original work survived the correction."
+    }
+  }
+}

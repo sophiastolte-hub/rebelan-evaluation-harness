@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rebelan.ai/schemas/case_packet.schema.json",
+  "title": "Blinded Case Packet",
+  "description": "Pre-decision-only facts shown to the model under evaluation. Must never contain the published outcome or any outcome-revealing cue. See prompts/assignment_v1.md Section 7 (outcome masking) for authoring rules.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "source",
+    "track",
+    "jurisdiction",
+    "research_condition",
+    "patient_profile",
+    "request",
+    "denial_rationale",
+    "known_facts",
+    "treatment_or_claim_history",
+    "available_evidence",
+    "unknowns",
+    "task_version",
+    "provenance"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "Pseudonymous stable ID. Must never encode outcome (e.g. no 'WON'/'LOST'/'UPHELD' substrings).",
+      "pattern": "^(NYDEV|NYVAL|CACHAL)-[0-9]{3}$"
+    },
+    "source": {
+      "type": "object",
+      "description": "Public provenance only. Must NOT contain decision text, reviewer rationale, or outcome.",
+      "additionalProperties": false,
+      "required": ["agency", "public_case_number", "url", "access_date"],
+      "properties": {
+        "agency": { "type": "string", "enum": ["NY DFS External Appeal", "CA DMHC IMR"] },
+        "public_case_number": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "access_date": { "type": "string", "format": "date" },
+        "source_snapshot_hash": {
+          "type": "string",
+          "description": "SHA-256 of the permitted public snapshot used for extraction, if saved.",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "track": {
+      "type": "string",
+      "enum": ["rx_medical_necessity", "out_of_network", "billing_claim"]
+    },
+    "jurisdiction": { "type": "string", "enum": ["NY", "CA"] },
+    "research_condition": {
+      "type": "string",
+      "enum": ["closed_book", "controlled_retrieval", "open_web"]
+    },
+    "patient_profile": {
+      "type": "object",
+      "description": "Generalized only. No names, DOB, address, member ID, or other direct identifiers.",
+      "additionalProperties": false,
+      "required": ["age_range", "diagnosis_summary"],
+      "properties": {
+        "age_range": { "type": "string", "pattern": "^[0-9]{1,2}(-[0-9]{1,2}|\\+)$" },
+        "gender": { "type": "string", "enum": ["female", "male", "not_specified"] },
+        "diagnosis_summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["item_at_issue", "requested_disposition"],
+      "properties": {
+        "item_at_issue": { "type": "string", "minLength": 1 },
+        "requested_disposition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "denial_rationale": {
+      "type": "string",
+      "description": "Insurer rationale as stated BEFORE the external decision only.",
+      "minLength": 1
+    },
+    "known_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["fact_id", "text", "provenance_ref"],
+        "properties": {
+          "fact_id": { "type": "string", "pattern": "^F[0-9]{3}$" },
+          "text": { "type": "string", "minLength": 1 },
+          "provenance_ref": { "type": "string", "description": "Key into the provenance array below." }
+        }
+      }
+    },
+    "treatment_or_claim_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["event_id", "date_or_relative_date", "description"],
+        "properties": {
+          "event_id": { "type": "string", "pattern": "^H[0-9]{3}$" },
+          "date_or_relative_date": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "available_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidence_id", "description", "available_to_model"],
+        "properties": {
+          "evidence_id": { "type": "string", "pattern": "^E[0-9]{3}$" },
+          "description": { "type": "string", "minLength": 1 },
+          "available_to_model": { "type": "boolean" }
+        }
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "task_version": { "type": "string", "const": "assignment_v1" },
+    "provenance": {
+      "type": "array",
+      "description": "For every fact/history/evidence item: source file/hash and span.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ref_id", "source_file", "source_hash", "span"],
+        "properties": {
+          "ref_id": { "type": "string", "minLength": 1 },
+          "source_file": { "type": "string", "minLength": 1 },
+          "source_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "span": { "type": "string", "description": "Line or character range in the source snapshot." }
+        }
+      }
+    },
+    "synthetic": {
+      "type": "boolean",
+      "description": "MUST be true for any fixture that is not derived from a real public decision. Synthetic cases test software behavior only and must be excluded from outcome/efficacy claims.",
+      "default": false
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "case_id": { "pattern": "^CACHAL-" } } },
+      "then": { "properties": { "jurisdiction": { "const": "CA" } } }
+    },
+    {
+      "if": { "properties": { "case_id": { "pattern": "^(NYDEV|NYVAL)-" } } },
+      "then": { "properties": { "jurisdiction": { "const": "NY" } } }
+    }
+  ]
+}

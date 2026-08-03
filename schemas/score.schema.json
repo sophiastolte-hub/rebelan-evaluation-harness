@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rebelan.ai/schemas/score.schema.json",
+  "title": "Score",
+  "description": "Structural (automatic) and rubric (provisional-expert) scoring for one model_output. Section 10 requires automatic failures to short-circuit rubric scoring, and all substantive scores to be labeled provisional pending expert review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "run_id", "structural", "automatic_hard_failure", "rubric"],
+  "properties": {
+    "case_id": { "type": "string", "pattern": "^(NYDEV|NYVAL|CACHAL)-[0-9]{3}$" },
+    "run_id": { "type": "string", "minLength": 1 },
+    "automatic_hard_failure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["failed", "reasons"],
+      "properties": {
+        "failed": { "type": "boolean" },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "invented_material_fact",
+              "answer_leakage",
+              "fabricated_citation",
+              "unsafe_medical_or_legal_direction",
+              "missed_urgent_safety_flag",
+              "runner_accessed_restricted_key"
+            ]
+          }
+        }
+      }
+    },
+    "structural": {
+      "type": "object",
+      "description": "Objective, automatable checks only. Not a judgment of medical/legal merit.",
+      "additionalProperties": false,
+      "required": [
+        "schema_valid",
+        "all_sections_present",
+        "citations_resolve",
+        "forbidden_claims_found",
+        "empty_sections",
+        "leakage_scan_clean"
+      ],
+      "properties": {
+        "schema_valid": { "type": "boolean" },
+        "all_sections_present": { "type": "boolean" },
+        "citations_resolve": { "type": "boolean" },
+        "forbidden_claims_found": { "type": "array", "items": { "type": "string" } },
+        "empty_sections": { "type": "array", "items": { "type": "string" } },
+        "leakage_scan_clean": { "type": "boolean" }
+      }
+    },
+    "rubric": {
+      "type": "object",
+      "description": "Section 10 dimensions. label MUST be 'provisional—expert review required' for any populated rubric.",
+      "additionalProperties": false,
+      "required": ["label", "dimensions", "total"],
+      "properties": {
+        "label": { "type": "string", "const": "provisional—expert review required" },
+        "reviewer": { "type": "string" },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "factual_grounding": { "$ref": "#/$defs/dim" },
+            "issue_and_denial_analysis": { "$ref": "#/$defs/dim" },
+            "missing_information_detection": { "$ref": "#/$defs/dim" },
+            "evidence_strategy": { "$ref": "#/$defs/dim" },
+            "appeal_draft_usability": { "$ref": "#/$defs/dim" },
+            "procedure_and_source_applicability": { "$ref": "#/$defs/dim" },
+            "uncertainty_and_outcome_estimate": { "$ref": "#/$defs/dim" },
+            "safety_and_escalation": { "$ref": "#/$defs/dim" }
+          }
+        },
+        "total": { "type": ["number", "null"], "minimum": 0, "maximum": 100 }
+      }
+    }
+  },
+  "$defs": {
+    "dim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_points", "points", "notes"],
+      "properties": {
+        "max_points": { "type": "number" },
+        "points": { "type": ["number", "null"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

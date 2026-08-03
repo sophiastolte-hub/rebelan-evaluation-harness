@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rebelan.ai/schemas/answer_key.schema.json",
+  "title": "Hidden Answer Key",
+  "description": "Restricted record. MUST live only under restricted/**/ which the model runner is forbidden to read. See src/rebelan_eval/ingest/allowlist.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "actual_outcome",
+    "reviewer_rationale",
+    "decisive_facts",
+    "missing_or_weak_evidence",
+    "cited_authorities",
+    "outcome_revealing_phrases_removed",
+    "source_hash",
+    "preparer",
+    "reviewer",
+    "approval_status"
+  ],
+  "properties": {
+    "case_id": { "type": "string", "pattern": "^(NYDEV|NYVAL|CACHAL)-[0-9]{3}$" },
+    "actual_outcome": { "type": "string", "enum": ["upheld", "overturned", "partial"] },
+    "reviewer_rationale": { "type": "string", "minLength": 1 },
+    "decisive_facts": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "missing_or_weak_evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cited_authorities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "outcome_revealing_phrases_removed": {
+      "type": "array",
+      "description": "Exact phrases stripped from the source before creating the blinded packet (audit trail for the leakage reviewer).",
+      "items": { "type": "string" }
+    },
+    "source_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "preparer": { "type": "string", "minLength": 1 },
+    "reviewer": {
+      "type": "string",
+      "description": "Second person, or 'fresh_ai_session' per Section 7, who performed leakage review. Never the same person/session that authored the blinded packet's prose."
+    },
+    "approval_status": {
+      "type": "string",
+      "enum": ["draft", "pending_leakage_review", "pending_founder_review", "approved"]
+    },
+    "founder_reviewed": {
+      "type": "boolean",
+      "description": "True once Dan has reviewed this packet/key pair per the Day 2 checkpoint (first two pairs only, required before preparing the remainder)."
+    }
+  }
+}

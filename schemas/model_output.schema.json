@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rebelan.ai/schemas/model_output.schema.json",
+  "title": "Model Output",
+  "description": "Validated structure for the ten required sections of prompts/assignment_v1.md (Section 8). One instance per case_id per run_id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "run_id",
+    "plain_language_explanation",
+    "missing_information_questions",
+    "evidence_checklist",
+    "strengths",
+    "weaknesses",
+    "recommended_strategy",
+    "draft_appeal",
+    "procedural_route",
+    "outcome_estimate",
+    "verification_items",
+    "citations",
+    "explicit_unknowns",
+    "safety_escalation_flags"
+  ],
+  "properties": {
+    "case_id": { "type": "string", "pattern": "^(NYDEV|NYVAL|CACHAL)-[0-9]{3}$" },
+    "run_id": { "type": "string", "minLength": 1 },
+    "plain_language_explanation": { "type": "string", "minLength": 1 },
+    "missing_information_questions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "evidence_checklist": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "strengths": {
+      "type": "array",
+      "description": "Strongest points supporting the member.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "weaknesses": {
+      "type": "array",
+      "description": "Strongest points supporting the denial.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "recommended_strategy": { "type": "string", "minLength": 1 },
+    "draft_appeal": { "type": "string", "minLength": 1 },
+    "procedural_route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["determinable", "details"],
+      "properties": {
+        "determinable": { "type": "boolean" },
+        "details": {
+          "type": "string",
+          "description": "Route/deadlines if determinable=true; otherwise an explicit statement that they cannot be determined from the packet."
+        }
+      }
+    },
+    "outcome_estimate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["estimate", "confidence_0_to_1", "reasons"],
+      "properties": {
+        "estimate": { "type": "string", "enum": ["likely_upheld", "likely_overturned", "too_uncertain"] },
+        "confidence_0_to_1": { "type": "number", "minimum": 0, "maximum": 1 },
+        "reasons": { "type": "string", "minLength": 1 }
+      }
+    },
+    "verification_items": {
+      "type": "array",
+      "description": "Uncertainties and verification-required statements.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "citations": {
+      "type": "array",
+      "description": "Every substantive claim must be traceable to a packet fact ID (F001, H001, E001) or a permitted URL.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_ref", "cite"],
+        "properties": {
+          "claim_ref": { "type": "string" },
+          "cite": {
+            "type": "string",
+            "pattern": "^(F[0-9]{3}|H[0-9]{3}|E[0-9]{3}|https?://.+|INFERENCE|UNKNOWN)$"
+          }
+        }
+      }
+    },
+    "explicit_unknowns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "safety_escalation_flags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

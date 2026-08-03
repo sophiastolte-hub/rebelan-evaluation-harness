@@ -1,0 +1,27 @@
+{
+  "case_id": "NYDEV-999-WON",
+  "synthetic": true,
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "SYNTHETIC-9999",
+    "url": "not-a-valid-url"
+  },
+  "track": "dental_cleaning",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "not-a-range",
+    "diagnosis_summary": "Intentionally invalid fixture: this packet should FAIL schema validation."
+  },
+  "request": {
+    "item_at_issue": "Missing requested_disposition on purpose"
+  },
+  "denial_rationale": "The denial was overturned on appeal, therefore the denial was wrong from the start.",
+  "known_facts": "this should be an array, not a string",
+  "treatment_or_claim_history": [],
+  "available_evidence": [],
+  "unknowns": [],
+  "task_version": "assignment_v0_wrong_version",
+  "provenance": [],
+  "extra_field_not_in_schema": "additionalProperties:false should reject this"
+}
