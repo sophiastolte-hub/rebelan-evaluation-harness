@@ -1,0 +1,36 @@
+{
+  "case_id": "NYDEV-002",
+  "run_id": "OFFLINE",
+  "plain_language_explanation": "[offline fixture] placeholder explanation.",
+  "missing_information_questions": [
+    "[offline fixture] what plan document applies?"
+  ],
+  "evidence_checklist": [
+    "[offline fixture] prior authorization history"
+  ],
+  "strengths": [
+    "[offline fixture] strength placeholder"
+  ],
+  "weaknesses": [
+    "[offline fixture] weakness placeholder"
+  ],
+  "recommended_strategy": "[offline fixture] placeholder strategy",
+  "draft_appeal": "[offline fixture] placeholder appeal draft.",
+  "procedural_route": {
+    "determinable": false,
+    "details": "Cannot be determined from packet alone."
+  },
+  "outcome_estimate": {
+    "estimate": "too_uncertain",
+    "confidence_0_to_1": 0.3,
+    "reasons": "[offline fixture]"
+  },
+  "verification_items": [
+    "[offline fixture] verify plan document version"
+  ],
+  "citations": [],
+  "explicit_unknowns": [
+    "[offline fixture] exact plan language unknown"
+  ],
+  "safety_escalation_flags": []
+}

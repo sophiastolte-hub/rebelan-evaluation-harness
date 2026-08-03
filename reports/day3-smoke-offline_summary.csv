@@ -1,0 +1,9 @@
+run_id,split,condition,case_id,schema_valid,json_repair_needed,structural_all_sections_present,structural_citations_resolve,structural_leakage_clean,automatic_hard_failure,hard_failure_reasons,rubric_label,rubric_total,latency_seconds,estimated_cost_usd
+day3-smoke-offline,ny_dev,closed_book,NYDEV-001,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-002,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-003,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-004,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-005,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-006,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-007,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0
+day3-smoke-offline,ny_dev,closed_book,NYDEV-008,True,False,False,True,True,False,,provisional—expert review required,,0.0,0.0

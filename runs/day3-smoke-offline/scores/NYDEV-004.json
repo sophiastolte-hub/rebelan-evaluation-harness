@@ -1,0 +1,23 @@
+{
+  "case_id": "NYDEV-004",
+  "run_id": "OFFLINE",
+  "structural": {
+    "schema_valid": true,
+    "all_sections_present": false,
+    "citations_resolve": true,
+    "forbidden_claims_found": [],
+    "empty_sections": [
+      "citations"
+    ],
+    "leakage_scan_clean": true
+  },
+  "automatic_hard_failure": {
+    "failed": false,
+    "reasons": []
+  },
+  "rubric": {
+    "label": "provisional\u2014expert review required",
+    "dimensions": {},
+    "total": null
+  }
+}

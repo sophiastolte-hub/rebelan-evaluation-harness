@@ -1,0 +1,105 @@
+{
+  "case_id": "NYDEV-001",
+  "run_id": "day3-smoke-offline",
+  "original_model_output": "{\"case_id\": \"NYDEV-001\", \"run_id\": \"OFFLINE\", \"plain_language_explanation\": \"[offline fixture] placeholder explanation.\", \"missing_information_questions\": [\"[offline fixture] what plan document applies?\"], \"evidence_checklist\": [\"[offline fixture] prior authorization history\"], \"strengths\": [\"[offline fixture] strength placeholder\"], \"weaknesses\": [\"[offline fixture] weakness placeholder\"], \"recommended_strategy\": \"[offline fixture] placeholder strategy\", \"draft_appeal\": \"[offline fixture] placeholder appeal draft.\", \"procedural_route\": {\"determinable\": false, \"details\": \"Cannot be determined from packet alone.\"}, \"outcome_estimate\": {\"estimate\": \"too_uncertain\", \"confidence_0_to_1\": 0.3, \"reasons\": \"[offline fixture]\"}, \"verification_items\": [\"[offline fixture] verify plan document version\"], \"citations\": [], \"explicit_unknowns\": [\"[offline fixture] exact plan language unknown\"], \"safety_escalation_flags\": []}",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-001",
+    "actual_outcome": "upheld",
+    "reviewer_rationale": "The reviewer found no medical necessity for Myfembree because the patient's bleeding has a mechanical cause (a large intrauterine/endometrial polyp) that should be treated with removal rather than pharmacologic bleeding suppression; Myfembree is not FDA/ACOG-recognized as first-line for anatomic bleeding of this kind, and there was no documented trial/failure of standard therapies (oral contraceptives, oral progesterone, or NSAIDs) specifically for the bleeding indication.",
+    "decisive_facts": [
+      "Presence of a large intrauterine/endometrial polyp as the likely mechanical cause of bleeding.",
+      "No documented trial or failure of oral contraceptives, oral progesterone, or NSAIDs for the heavy-bleeding indication.",
+      "The Oriahnn trial was via sample only, with no prescription on record, so it did not count as a documented formulary-alternative failure."
+    ],
+    "missing_or_weak_evidence": [
+      "No documentation of standard first-line therapy (OCs, oral progesterone, NSAIDs) trial/failure for heavy bleeding.",
+      "No plan for addressing the endometrial polyp itself."
+    ],
+    "cited_authorities": [
+      "Al-Hendy A, Lukes AS, Poindexter AN III, et al. Treatment of uterine fibroid symptoms with relugolix combination therapy. N Engl J Med. 2021;384;630-642",
+      "Management of acute abnormal uterine bleeding in nonpregnant reproductive-aged women. Committee Opinion No. 557. ACOG. Obstet Gynecol 2013; 121:891-6.",
+      "Munro MG, Critchley HO, Broder MS, Fraser IS. FIGO classification system (PALM-COEIN). Int J Gynaecol Obstet 2011; 113:3-13.",
+      "Diagnosis of abnormal uterine bleeding in reproductive-aged women. Practice Bulletin No. 128. ACOG. Obstet Gynecol 2012; 120:197-206."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The denial is upheld.",
+      "The health plan's determination is upheld.",
+      "there would not be a medical necessity or indication for the use of Myfembree"
+    ],
+    "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+    "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-001",
+    "run_id": "OFFLINE",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": false,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [
+        "citations"
+      ],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "case_id": "NYDEV-004",
+  "run_id": "day3-smoke-offline",
+  "original_model_output": "{\"case_id\": \"NYDEV-004\", \"run_id\": \"OFFLINE\", \"plain_language_explanation\": \"[offline fixture] placeholder explanation.\", \"missing_information_questions\": [\"[offline fixture] what plan document applies?\"], \"evidence_checklist\": [\"[offline fixture] prior authorization history\"], \"strengths\": [\"[offline fixture] strength placeholder\"], \"weaknesses\": [\"[offline fixture] weakness placeholder\"], \"recommended_strategy\": \"[offline fixture] placeholder strategy\", \"draft_appeal\": \"[offline fixture] placeholder appeal draft.\", \"procedural_route\": {\"determinable\": false, \"details\": \"Cannot be determined from packet alone.\"}, \"outcome_estimate\": {\"estimate\": \"too_uncertain\", \"confidence_0_to_1\": 0.3, \"reasons\": \"[offline fixture]\"}, \"verification_items\": [\"[offline fixture] verify plan document version\"], \"citations\": [], \"explicit_unknowns\": [\"[offline fixture] exact plan language unknown\"], \"safety_escalation_flags\": []}",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-004",
+    "actual_outcome": "overturned",
+    "reviewer_rationale": "The reviewer found Phexxi medically necessary because the patient had documented failure of formulary alternatives (multiple oral contraceptives, Gynol II, Shur Seal, and diaphragm) and has a hormone intolerance requiring a non-hormonal method; ACOG guidance supports branded/alternative contraceptive requests when standard options have failed or are clinically inappropriate for the patient.",
+    "decisive_facts": [
+      "Documented failure of formulary contraceptive alternatives per the provider letter.",
+      "Reported hormone intolerance requiring a non-hormonal method."
+    ],
+    "missing_or_weak_evidence": [],
+    "cited_authorities": [
+      "ACOG Committee Opinion No. 375, Brand Versus Generic Oral Contraceptives. August 2007, reaffirmed 2019.",
+      "Lexicomp: Phexxi. UpToDate. October 2021."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The denial is overturned.",
+      "Yes, the requested Phexxi is medically necessary.",
+      "this would be considered necessary"
+    ],
+    "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+    "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-004",
+    "run_id": "OFFLINE",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": false,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [
+        "citations"
+      ],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}

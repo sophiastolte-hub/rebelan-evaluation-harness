@@ -1,0 +1,102 @@
+{
+  "case_id": "NYDEV-005",
+  "run_id": "day3-smoke-offline",
+  "original_model_output": "{\"case_id\": \"NYDEV-005\", \"run_id\": \"OFFLINE\", \"plain_language_explanation\": \"[offline fixture] placeholder explanation.\", \"missing_information_questions\": [\"[offline fixture] what plan document applies?\"], \"evidence_checklist\": [\"[offline fixture] prior authorization history\"], \"strengths\": [\"[offline fixture] strength placeholder\"], \"weaknesses\": [\"[offline fixture] weakness placeholder\"], \"recommended_strategy\": \"[offline fixture] placeholder strategy\", \"draft_appeal\": \"[offline fixture] placeholder appeal draft.\", \"procedural_route\": {\"determinable\": false, \"details\": \"Cannot be determined from packet alone.\"}, \"outcome_estimate\": {\"estimate\": \"too_uncertain\", \"confidence_0_to_1\": 0.3, \"reasons\": \"[offline fixture]\"}, \"verification_items\": [\"[offline fixture] verify plan document version\"], \"citations\": [], \"explicit_unknowns\": [\"[offline fixture] exact plan language unknown\"], \"safety_escalation_flags\": []}",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-005",
+    "actual_outcome": "overturned",
+    "reviewer_rationale": "The reviewer found Nurtec ODT medically necessary because the patient had tried and failed multiple triptans (ineffective or intolerable), and per FDA-approved labeling and clinical trial literature, Nurtec ODT (a Gepant) is an appropriate alternative therapy for acute migraine when triptans are ineffective or not tolerated.",
+    "decisive_facts": [
+      "Reported trial and failure of three triptans (Sumatriptan, Zolmitriptan, Rizatriptan) due to inefficacy or intolerable side effects.",
+      "Nurtec ODT's FDA approval and trial data support use as an alternative to triptans for acute migraine."
+    ],
+    "missing_or_weak_evidence": [
+      "Contemporaneous outpatient documentation of the triptan trial/failure was not present in the original submission (only the provider's appeal-stage report)."
+    ],
+    "cited_authorities": [
+      "Lipton RB, et al. Rimegepant, An Oral CGRP Receptor Antagonist, For Migraine. NEJM 381.2 (2019): 142-149.",
+      "Croop R, et al. Efficacy, Safety, and Tolerability of Rimegepant ODT for Acute Treatment of Migraine. The Lancet 394.10200 (2019): 737-745.",
+      "Yang CP, et al. Comparison of New Pharmacologic Agents with Triptans for Treatment of Migraine: Systematic Review and Meta-analysis. JAMA Network Open 4.10 (2021): e2128544."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The health plan's determination is overturned.",
+      "The health plan's determination of medical necessity is overturned, in whole.",
+      "Nurtec ODT is medically necessary."
+    ],
+    "source_hash": "92d80baa8a0b4cb7bd56baf5fc83bcd4bc4e404baeb9173cdb65828e152e6511",
+    "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-005",
+    "run_id": "OFFLINE",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": false,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [
+        "citations"
+      ],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}

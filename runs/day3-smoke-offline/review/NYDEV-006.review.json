@@ -1,0 +1,103 @@
+{
+  "case_id": "NYDEV-006",
+  "run_id": "day3-smoke-offline",
+  "original_model_output": "{\"case_id\": \"NYDEV-006\", \"run_id\": \"OFFLINE\", \"plain_language_explanation\": \"[offline fixture] placeholder explanation.\", \"missing_information_questions\": [\"[offline fixture] what plan document applies?\"], \"evidence_checklist\": [\"[offline fixture] prior authorization history\"], \"strengths\": [\"[offline fixture] strength placeholder\"], \"weaknesses\": [\"[offline fixture] weakness placeholder\"], \"recommended_strategy\": \"[offline fixture] placeholder strategy\", \"draft_appeal\": \"[offline fixture] placeholder appeal draft.\", \"procedural_route\": {\"determinable\": false, \"details\": \"Cannot be determined from packet alone.\"}, \"outcome_estimate\": {\"estimate\": \"too_uncertain\", \"confidence_0_to_1\": 0.3, \"reasons\": \"[offline fixture]\"}, \"verification_items\": [\"[offline fixture] verify plan document version\"], \"citations\": [], \"explicit_unknowns\": [\"[offline fixture] exact plan language unknown\"], \"safety_escalation_flags\": []}",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-006",
+    "actual_outcome": "upheld",
+    "reviewer_rationale": "The reviewer found Vyepti not medically necessary because there is no direct comparative evidence showing Vyepti would outperform a trial of the plan's preferred self-administered CGRP agent (Ajovy), the patient's self-reported needle aversion does not itself rule out third-party or clinical administration of an injectable, and the plan's offered alternative is well supported by the literature for this condition.",
+    "decisive_facts": [
+      "No direct head-to-head comparison data exists showing Vyepti's superiority over Ajovy.",
+      "No documented trial of Ajovy specifically, despite trials of related CGRP agents Aimovig and Emgality.",
+      "Needle aversion alone was not considered a sufficient contraindication to a self-administered alternative."
+    ],
+    "missing_or_weak_evidence": [
+      "No documented trial of Ajovy specifically."
+    ],
+    "cited_authorities": [
+      "Lipton RB, et al. Efficacy and safety of eptinezumab in patients with chronic migraine: PROMISE-2. Neurology 94.13 (2020): e1365-e1377.",
+      "Dodick DW, et al. Eptinezumab for prevention of chronic migraine: randomized phase 2b trial. Cephalalgia 39.9 (2019): 1075-1085.",
+      "Burch R. Preventive migraine treatment. Continuum: Lifelong Learning in Neurology 27.3 (2021): 613-632."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The denial is upheld.",
+      "The health plan's determination of medical necessity is upheld in whole.",
+      "is not medically necessary for this patient"
+    ],
+    "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+    "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-006",
+    "run_id": "OFFLINE",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": false,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [
+        "citations"
+      ],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}
