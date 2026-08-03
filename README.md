@@ -172,6 +172,66 @@ Model API spend is tracked per-run in `runs/<run_id>/manifest.json`
 `run/model_providers.py`). Cumulative spend across the week is summarized
 in the final report.
 
+## What's left for you to do
+
+Everything through Day 2 is committed and real (8 real NY DFS cases,
+schema-validated, leakage-scanned, git-tagged `day1-schemas`). Day 3
+onward needs your Anthropic API key and your human judgment calls, which
+the assignment requires anyway (Section 12 checkpoints are explicitly
+founder/student review points, not automatable). A `day3-smoke-offline`
+run is already committed proving the whole pipeline works end to end with
+zero spend -- here's the walkthrough to turn it into the real thing:
+
+1. **Review the 8 draft cases.** Read `docs/day2_review_notes.md` first --
+   it explains exactly what to check in each `cases/ny_dev/blinded/*.json`
+   / `restricted/ny_dev_answer_keys/*.json` pair before trusting them as
+   the frozen baseline input. Flip each answer key's `approval_status` to
+   `"approved"` once you're satisfied.
+2. **Set your API key.** `cp .env.example .env`, fill in
+   `ANTHROPIC_API_KEY`.
+3. **Run the real baseline** (this is the first step that spends money --
+   8 cases, one call each):
+   ```bash
+   eval run --set ny_dev --condition closed_book --prompt assignment_v1 --run-id baseline-<today's date>
+   git add -A && git commit -m "Real baseline run" && git tag baseline-frozen
+   ```
+   Tagging before you look at aggregate results matters -- Section 8 wants
+   the baseline frozen before you know how it did.
+4. **Score and review:**
+   ```bash
+   eval score-structural --run-id baseline-<date>
+   eval open-review --run-id baseline-<date>
+   ```
+   `open-review` writes one `runs/<id>/review/<case>.review.json` per case
+   with the original output, the hidden answer key, and a rubric template.
+   Fill in `rubric_to_fill`, save it as `runs/<id>/scores/<case>.json`
+   (replacing the structural-only version), and log any correction you make
+   with `eval log-intervention` (real minutes, real category, real
+   severity -- not placeholders like the smoke-test entry).
+5. **Pick one revision.** Look for the single largest recurring failure
+   pattern across the 8 cases. Write `prompts/assignment_v2.md` with one
+   change and a one-paragraph hypothesis at the top of that file. Rerun:
+   ```bash
+   eval run --set ny_dev --condition closed_book --prompt assignment_v2 --run-id v2-<date>
+   ```
+   Baseline outputs are never overwritten -- `build-report` can compare
+   both run_ids side by side.
+6. **Optional: California challenge set.** Only after the repo is tagged
+   frozen with v2 locked in. Prepare 2-3 CA DMHC IMR cases the same way as
+   Day 2 (answer key first, then blinded packet), ideally with someone
+   other than the prompt author preparing the keys. Run once, don't tune
+   anything in response.
+7. **Final report:**
+   ```bash
+   eval build-report --run-id baseline-<date> --run-id v2-<date> [--run-id ca-<date>]
+   ```
+   Then fill in `reports/backlog.md` (drafted for you, needs your
+   real-results-informed prioritization) and write the executive
+   summary/limitations prose using the Section 15 template.
+
 ## Backlog
 
-See `reports/backlog.md` (added Day 5) for the prioritized next-steps list.
+Draft prioritized backlog in `reports/backlog.md` -- written before any
+real model run, so it's a starting point based on what the engineering
+build surfaced, not on real failure data. Revisit and reorder it once
+step 5 above gives you an actual recurring-failure pattern to point at.
