@@ -1,0 +1,89 @@
+{
+  "case_id": "NYDEV-004",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202111-143658",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202111-143658",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "30-39",
+    "gender": "female",
+    "diagnosis_summary": "Adult female requiring contraception, with a reported intolerance to hormonal methods."
+  },
+  "request": {
+    "item_at_issue": "Phexxi 1.8-1-0.4% vaginal gel",
+    "requested_disposition": "Coverage approval for Phexxi as a non-hormonal contraceptive"
+  },
+  "denial_rationale": "Insurer denied Phexxi as not medically necessary.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient requires contraception and reports an intolerance to hormonal methods.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Provider letter states patient has tried and failed multiple oral contraceptives.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Provider letter states patient has also tried and failed Gynol II, Shur Seal, and diaphragm.",
+      "provenance_ref": "R003"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trials of multiple oral contraceptives; reported failure/intolerance."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trials of Gynol II, Shur Seal, and diaphragm; reported failure per provider letter."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Provider letter documenting contraceptive trial history",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Clinical documentation of hormone intolerance",
+      "available_to_model": true
+    }
+  ],
+  "unknowns": [
+    "Specific formulary alternatives the plan considers still untried, if any.",
+    "Exact plan formulary/step-therapy criteria applicable to Phexxi."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-004.txt",
+      "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-004.txt",
+      "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-004.txt",
+      "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

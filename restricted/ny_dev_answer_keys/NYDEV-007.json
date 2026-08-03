@@ -1,0 +1,27 @@
+{
+  "case_id": "NYDEV-007",
+  "actual_outcome": "upheld",
+  "reviewer_rationale": "The reviewer found Wegovy not medically necessary because the submitted information did not establish that the patient was currently enrolled in a qualified comprehensive weight management program (with required physician-office counseling) for at least 3 months; a weight-loss app alone does not satisfy that requirement, even though behavioral modification, a gym membership, and a clinic referral were documented.",
+  "decisive_facts": [
+    "No documentation of enrollment in a qualifying comprehensive weight management program with physician-office counseling for >=3 months.",
+    "A weight-loss app does not meet the plan's definition of a comprehensive weight management program."
+  ],
+  "missing_or_weak_evidence": [
+    "Documentation of a physician-office-based comprehensive weight management program (as opposed to app-based tracking)."
+  ],
+  "cited_authorities": [
+    "Singh G, Krauthamer M, Bjalme-Evans M. Wegovy (semaglutide): a new weight loss drug for chronic weight management. J Investig Med. 2022;70(1):5-13.",
+    "Rubino D, et al. Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance: STEP 4 RCT. JAMA. 2021 Apr 13;325(14):1414-1425.",
+    "Wegovy FDA label, 2021."
+  ],
+  "outcome_revealing_phrases_removed": [
+    "The denial is upheld.",
+    "The treatment with Wegovy is not medically necessary.",
+    "the requested Wegovy is not medically necessary"
+  ],
+  "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "reviewer": "pending_second_pass_leakage_review",
+  "approval_status": "pending_founder_review",
+  "founder_reviewed": false
+}

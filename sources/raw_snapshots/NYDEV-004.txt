@@ -1,0 +1,19 @@
+Case Number: 202111-143658
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202111-143658
+Diagnosis: Pregnancy/ Childbirth
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Healthfirst Inc.
+Decision: Overturned
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 30-39
+Decision Year: 2021
+Appeal Agent: MCMC, LLC
+Coverage Type: Medicaid
+
+Summary:
+Diagnosis: Need for contraception Treatment: Phexxi 1.8-1-0.4% VA GEL The insurer denied the Phexxi 1.8-1-0.4% VA GEL. The denial is overturned. The patient is a female who needs contraception. She has tried multiple oral contraceptives. The provider letter states that she has failed Gynol II, Shur Seal and diaphragm. The request is for Phexxi. The health plan denied the request as not medically necessary. This is being appealed Yes, the requested Phexxi is medically necessary. American College of Obstetricians and Gynecologists supports patient or clinician requests for branded OCs (oral contraceptives) or continuation of the same generic or branded OC (oral contraceptive) if the request is based on clinical experience or concerns regarding packaging or compliance, or if the branded product is considered a better choice for that individual patient. In review of the information provided, the patient requires birth control. She has failed the formulary alternatives per the provider letter. She has an intolerance to hormones and requires a non-hormonal method of birth control. Therefore, this is a medically appropriate and necessary option for this patient. No, the health plan did not act reasonably, with sound medical judgment, and in the best interest of the patient. In review of the information provided, the patient has failed the formulary options, so this would be considered necessary.
+
+References:
+1) ACOG Committee Opinion. No 375 Brand Versus Generic Oral Contraceptives. August 2007, reaffirmed 2019.
+2) Lexicomp: Phexxi. Up to Date. October 2021

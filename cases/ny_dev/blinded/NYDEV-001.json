@@ -1,0 +1,131 @@
+{
+  "case_id": "NYDEV-001",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202203-147477",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202203-147477",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "40-49",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with menorrhagia (heavy menstrual bleeding), a uterine fibroid, and an intrauterine endometrial polyp identified on ultrasound."
+  },
+  "request": {
+    "item_at_issue": "Myfembree 40-1-0.5 mg oral tablets",
+    "requested_disposition": "Coverage approval for Myfembree for treatment of heavy menstrual bleeding"
+  },
+  "denial_rationale": "Insurer denied coverage for Myfembree, stating the submitted records did not establish medical necessity for this indication given the patient's diagnostic findings and treatment history.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has a documented history of a prior adverse effect on medroxyprogesterone.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Patient reports trying samples of Oriahnn with a reported adverse effect, but had no prescription for it on record.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Pharmacy claims show prior prescriptions for Motrin 800 mg, Naproxen 500 mg, and medroxyprogesterone 100 mg tablets.",
+      "provenance_ref": "R003"
+    },
+    {
+      "fact_id": "F004",
+      "text": "Patient reports a 2-year history of intermittent bleeding, irregular periods, and left lower quadrant pain, with diagnoses of fibroid, menorrhagia, and adenomyosis.",
+      "provenance_ref": "R004"
+    },
+    {
+      "fact_id": "F005",
+      "text": "Pelvic ultrasound showed a normal-size uterus with a solitary 4.4 cm intramural left-sided fundal fibroid, a possible 7 mm intrauterine polyp, and a 2.4 cm endometrial polyp.",
+      "provenance_ref": "R005"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trial of medroxyprogesterone; adverse effect reported."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trial of Oriahnn samples (no prescription on record); adverse effect reported."
+    },
+    {
+      "event_id": "H003",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Pharmacy claims for Motrin 800 mg and Naproxen 500 mg on file."
+    },
+    {
+      "event_id": "H004",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Pelvic ultrasound performed; findings as above."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Pelvic ultrasound report",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Pharmacy claims history",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E003",
+      "description": "Prescriber records of medroxyprogesterone and Oriahnn trials",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E004",
+      "description": "Documentation of trial/failure of oral contraceptives, oral progesterone, or NSAIDs specifically for heavy bleeding",
+      "available_to_model": false
+    }
+  ],
+  "unknowns": [
+    "Whether the intrauterine/endometrial polyp has been separately evaluated for surgical removal.",
+    "Exact plan formulary/step-therapy language applicable to Myfembree for this diagnosis."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-001.txt",
+      "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-001.txt",
+      "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-001.txt",
+      "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R004",
+      "source_file": "sources/raw_snapshots/NYDEV-001.txt",
+      "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R005",
+      "source_file": "sources/raw_snapshots/NYDEV-001.txt",
+      "source_hash": "78526d295c39d5599dde9c291ef834828a7166f708793869f0d05edd9727977c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

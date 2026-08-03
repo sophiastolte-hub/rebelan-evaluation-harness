@@ -1,0 +1,25 @@
+{
+  "case_id": "NYDEV-008",
+  "actual_outcome": "overturned",
+  "reviewer_rationale": "The reviewer found Wegovy medically necessary because the patient has obesity with a comorbidity (hypertension) and documented failure of dietary therapy, exercise, and weight loss programs alone; per expert guidance, pharmacotherapy is recommended in this situation and semaglutide (Wegovy) is a preferred first-line GLP-1 agonist option.",
+  "decisive_facts": [
+    "Documented BMI over 30 with an obesity-related comorbidity (hypertension).",
+    "Documented failure of dietary therapy, exercise programs, and weight loss programs alone."
+  ],
+  "missing_or_weak_evidence": [],
+  "cited_authorities": [
+    "Perreault L. Obesity in adults: Drug therapy. UpToDate.com.",
+    "Perreault L, Apovian C. Obesity in adults: Overview of management. UpToDate.com.",
+    "Perreault L, Delahanty LM. Obesity in adults: Dietary therapy. UpToDate.com."
+  ],
+  "outcome_revealing_phrases_removed": [
+    "The health plan's determination is overturned.",
+    "Wegovy 0.25MG/0.5 Pen Injector is medically necessary for this patient.",
+    "Therefore, Wegovy is medically necessary."
+  ],
+  "source_hash": "2c04faeb899298f2b53c4a4e23fe079abc1ee5bc62526d4f98fbc4940c8f295c",
+  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "reviewer": "pending_second_pass_leakage_review",
+  "approval_status": "pending_founder_review",
+  "founder_reviewed": false
+}

@@ -1,0 +1,111 @@
+{
+  "case_id": "NYDEV-006",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202202-146311",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202202-146311",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "20-29",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with chronic migraine, under ongoing neurology care."
+  },
+  "request": {
+    "item_at_issue": "Vyepti (eptinezumab-jjmr) infusion",
+    "requested_disposition": "Coverage approval for continued Vyepti infusions for chronic migraine prevention"
+  },
+  "denial_rationale": "Insurer denied Vyepti, offering an alternative self-administered CGRP agent (Ajovy) as the plan's preferred preventive therapy.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has chronic migraine under active neurologic management.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Current preventive regimen includes nerve blocks every 6 weeks, zonisamide, gabapentin, magnesium, and Vyepti infusions.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Concurrent medications include duloxetine, levothyroxine, Nexplanon, spironolactone, and PRN hydroxyzine.",
+      "provenance_ref": "R003"
+    },
+    {
+      "fact_id": "F004",
+      "text": "Prior preventive therapies included amitriptyline (no benefit), propranolol and atenolol (discontinued for dropping blood pressure), Aimovig (over 3 months without benefit), and Emgality (4 months without benefit).",
+      "provenance_ref": "R004"
+    },
+    {
+      "fact_id": "F005",
+      "text": "Patient self-reports an aversion to needles/injections.",
+      "provenance_ref": "R005"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trials of amitriptyline, propranolol, atenolol, Aimovig (>3 months), and Emgality (4 months), each without adequate benefit or due to side effects."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Started on Vyepti infusions as part of current preventive regimen."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Neurology visit notes documenting current and prior preventive regimens",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Documentation of formal trial of Ajovy (plan's preferred self-administered CGRP agent)",
+      "available_to_model": false
+    }
+  ],
+  "unknowns": [
+    "Whether a formal trial of Ajovy specifically (as opposed to Aimovig and Emgality) has been attempted.",
+    "Whether the needle aversion has a documented clinical basis beyond self-report."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-006.txt",
+      "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-006.txt",
+      "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-006.txt",
+      "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R004",
+      "source_file": "sources/raw_snapshots/NYDEV-006.txt",
+      "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R005",
+      "source_file": "sources/raw_snapshots/NYDEV-006.txt",
+      "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

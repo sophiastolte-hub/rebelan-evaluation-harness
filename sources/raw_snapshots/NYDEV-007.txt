@@ -1,0 +1,20 @@
+Case Number: 202305-163087
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202305-163087
+Diagnosis: Endocrine/ Metabolic/ Nutritional
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Rochester Area School Health Plan II Municipal Cooperative Health Benefit Plan
+Decision: Upheld
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 30-39
+Decision Year: 2023
+Appeal Agent: MCMC, LLC
+Coverage Type: Self-Funded
+
+Summary:
+Diagnosis: Obesity Treatment: Wegovy 2.4mg (milligrams)/ 0.75ml (milliliters) Pen Injector The insurer denied: Wegovy 2.4mg (milligrams)/ 0.75ml (milliliters) Pen The denial is upheld. The patient is an adult female. She has a diagnosis of obesity. Her baseline body index (BMI) is 41.48. The patient has been taking samples of Wegovy, and her current BMI (body mass index) is 37.88. The health plan's denial of coverage of Wegovy is being appealed. She has tried and failed Ozempic. She has engaged in a trial of behavioral modification and dietary restriction for at least 3 months, and she has failed to achieve the desired weight loss. Wegovy will not be co-administered with semaglutide-containing products or GLP-1 (glucagon-like peptide 1) receptor agonists. The patient has provided information supporting prior weight loss program. She is using a weight loss app. She was referred to a weight loss clinic. She reports having a gym membership. The treatment with Wegovy is not medically necessary. The information does not support that the patient is currently enrolled in a qualified comprehensive weight management program for at least 3 months. In addition, counseling in a physician's office is required. The reported weight loss app does not qualify for a comprehensive weight management program. Therefore, the requested Wegovy is not medically necessary, and the health plan acted reasonably, with sound medical judgment, and in the best interest of the patient.
+
+References:
+1) Singh G, Krauthamer M, Bjalme-Evans M. Wegovy (semaglutide): a new weight loss drug for chronic weight management. J Investig Med. 2022;70(1):5-13.
+2) Rubino D, Abrahamsson N, Davies M, et al. Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance: STEP 4 RCT. JAMA. 2021 Apr 13;325(14):1414-1425.
+3) Wegovy FDA label, 2021.

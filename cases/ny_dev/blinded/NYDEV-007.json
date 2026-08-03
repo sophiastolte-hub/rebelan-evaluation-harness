@@ -1,0 +1,131 @@
+{
+  "case_id": "NYDEV-007",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202305-163087",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202305-163087",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "30-39",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with obesity, baseline BMI 41.48."
+  },
+  "request": {
+    "item_at_issue": "Wegovy 2.4 mg/0.75 mL pen injector (semaglutide)",
+    "requested_disposition": "Coverage approval for Wegovy for chronic weight management"
+  },
+  "denial_rationale": "Insurer denied Wegovy, stating the submitted records did not establish enrollment in a qualified comprehensive weight management program for at least 3 months with physician-office counseling.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has obesity with baseline BMI 41.48.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Patient has been taking Wegovy samples; current BMI is 37.88.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Patient previously tried and failed Ozempic.",
+      "provenance_ref": "R003"
+    },
+    {
+      "fact_id": "F004",
+      "text": "Patient engaged in behavioral modification and dietary restriction for at least 3 months without achieving desired weight loss.",
+      "provenance_ref": "R004"
+    },
+    {
+      "fact_id": "F005",
+      "text": "Patient reports using a weight loss app, having a gym membership, and being referred to a weight loss clinic.",
+      "provenance_ref": "R005"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trial of Ozempic; reported failure."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "At least 3 months before appeal",
+      "description": "Behavioral modification and dietary restriction trial; desired weight loss not achieved."
+    },
+    {
+      "event_id": "H003",
+      "date_or_relative_date": "Ongoing",
+      "description": "Use of a weight loss tracking app; referral to a weight loss clinic; gym membership reported."
+    },
+    {
+      "event_id": "H004",
+      "date_or_relative_date": "Ongoing at time of appeal",
+      "description": "Taking Wegovy via samples; BMI decreased from 41.48 to 37.88 during this period."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Documentation of BMI values before and during sample use",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Documentation of Ozempic trial and outcome",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E003",
+      "description": "Records of weight-loss-app use, gym membership, and clinic referral",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E004",
+      "description": "Evidence of enrollment in a qualified comprehensive weight management program with physician-office counseling for >=3 months",
+      "available_to_model": false
+    }
+  ],
+  "unknowns": [
+    "The plan's specific definition/criteria for a 'qualified comprehensive weight management program.'",
+    "Whether the weight loss clinic referral resulted in an actual enrolled, ongoing program with office-based counseling."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-007.txt",
+      "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-007.txt",
+      "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-007.txt",
+      "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R004",
+      "source_file": "sources/raw_snapshots/NYDEV-007.txt",
+      "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R005",
+      "source_file": "sources/raw_snapshots/NYDEV-007.txt",
+      "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

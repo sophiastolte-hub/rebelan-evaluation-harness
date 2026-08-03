@@ -1,0 +1,21 @@
+Case Number: 202210-154794
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202210-154794
+Diagnosis: Genitourinary/ Kidney Disorder
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Healthfirst Inc.
+Decision: Upheld
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 60-69
+Decision Year: 2022
+Appeal Agent: Kepro dba IMEDECS
+Coverage Type: Medicaid
+
+Summary:
+Diagnosis: Autosomal dominant polycystic kidney disease (ADPKD) Treatment: Jynarque The insurer denied: Jynarque The denial is: Upheld The patient is a female with chronic kidney disease (CKD) stage 4 secondary to autosomal dominant polycystic kidney disease (ADPKD), diabetes mellitus (DM), hypertension (HTN), hypothyroidism, and hyperlipidemia. The provider has requested the use of Jynarque to slow the progression of his polycystic kidney disease. A computed tomography (CT) scan of the abdomen of pelvis showed a right (R) kidney measuring 12.6 x 4.4 x 7.9 centimeters (cm) and a left kidney measuring 6.5 x 5.8 x 12.2 cm. Renal volume was not quantified. The medication was denied by the plan for not meeting medical necessity criteria. The health plan's determination is upheld. The requested medication is not medically necessary for this patient. Jynarque is a selective vasopressin (V2)-receptor antagonist indicated to slow kidney function decline in adults at risk of rapidly progressing autosomal dominant polycystic kidney disease (ADPKD). This is determined by the Mayo Clinic total kidney volume (height-adjusted) calculator and ADPKD prognostic tool using kidney dimensions. A patient height was not provided so her exact class cannot be determined, however given her documented kidney volumes she would most likely be fall into the Mayo Clinic Class 1A which predicts a low risk of progression. High risk of progression is predicted only for Class 1C, 1D and 1E. Therefore, Jynarque would be unlikely to be of benefit to this patient and it is not medically necessary in this case.
+
+References:
+1) Total Kidney Volume (height adjusted) Calculator and ADPKD Prognostic Tool Using Kidney Dimensions.
+2) Imaging Classification of Autosomal Dominant Polycystic Kidney Disease: A Simple Model for Selecting Patients for Clinical Trials. J Am Soc Nephrol 2015, 26(1): 160-72.
+3) Torres VE, Gansevoort RT, Perrone RD, Chapman AB, Ouyang J, Lee J, Japes H, Nourbakhsh A, Wang T. Tolvaptan in ADPKD Patients With Very Low Kidney Function. Kidney Int Rep. 2021 Jun 9;6(8):2171-2178.
+4) Torres V.E., Chapman A., Devuyst O. Phase 3b, multicenter study of tolvaptan long-term safety in later-stage autosomal dominant polycystic kidney disease. Clin J Am Soc Nephrol. 2020;16:48-58.

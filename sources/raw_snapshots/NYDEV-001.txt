@@ -1,0 +1,21 @@
+Case Number: 202203-147477
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202203-147477
+Diagnosis: Gynecological
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Fidelis Care New York
+Decision: Upheld
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 40-49
+Decision Year: 2022
+Appeal Agent: Kepro dba IMEDECS
+Coverage Type: Medicaid
+
+Summary:
+Diagnosis: Gynecological. Treatment: Pharmacy/Prescription Drugs. The insurer denied Myfembree. The denial is upheld. In this case, the patient is noted to be a gravida (G)1 para (P) 0 abortion (A)1 (ectopic) female who underwent prior treatment with medroxyprogesterone and had a reported adverse effect. She is stated to have tried samples of Oriahnn and reported adverse effect but did not have a prescription for this and this is not accepted as a trial and failure of formulary alternative as a sample. Review of the pharmacy claims noted prior prescription for Motrin 800 milligrams (mg) tablets, Naproxen 500 mg tablets and medroxyprogesterone 100 mg tablets. The patient also reports she has a fibroid, menorrhagia, irregular periods, adenomyosis and pelvic pain. The patient underwent ultrasound that noted a normal uterine size and a solitary 4.4 centimeter (cm) intramural left sided fundal fibroid. There was a possible intrauterine polyp in that appears to be 7 millimeter (mm) in size. The patient has bleeding off and on for two years. This is also noted with left lower quadrant (LLQ) pain. The endometrium had a 2.4 cm polyp. The subject under review is the medical necessity for Myfembree. The health plan's determination is upheld. Based upon a review of the medical records in this case, there would not be a medical necessity or indication for the use of Myfembree 40-1-0.5 mg oral tablets for the indication of heavy menstrual bleeding. In this case, the patient is noted to have a single fibroid but has a large intrauterine polyp that is within the endometrium. There is a large polyp within the endometrium, and this should be treated with removal. There is no indication for the use of Myfembree 40-1-0.5 mg oral tablets when the causation of bleeding is a large polyp in the endometrium. This would represent a mechanical cause of bleeding. Based upon a review of the indication of heavy bleeding for the plan of Myfembree, this would not be supported by the recommendations of the Food and Drug Administration as this medication is not a first line agent for the treatment of heavy bleeding when an endometrial polyp is present. The recommendations of the American College of Obstetricians and Gynecologists have not recognized the use of Myfembree in the management of anatomic bleeding and there have been no reported trials or failures of standard therapy with oral contraceptives, oral progesterone, or non steroidal anti-inflammatory drugs (NSAIDs) for treatment. In addition, there is no reported management of the large polyp in the uterus based upon ultrasound evaluation. Thus, the medication would also not be indicated by lack of this diagnosis being present and considered.
+
+References:
+1) Al-Hendy A, Lukes AS, Poindexter AN III, et al. Treatment of uterine fibroid symptoms with relugolix combination therapy. N Engl J Med. 2021;384;630-642
+2) Management of acute abnormal uterine bleeding in nonpregnant reproductive-aged women. Committee Opinion No. 557. American College of Obstetricians and Gynecologists. Obstet Gynecol 2013; 121:891-6.
+3) Munro MG, Critchley HO, Broder MS, Fraser IS. FIGO classification system (PALM-COEIN) for causes of abnormal uterine bleeding in nongravid women of reproductive age. FIGO Working Group on Menstrual Disorders. Int J Gynaecol Obstet 2011; 113:3-13.
+4) Diagnosis of abnormal uterine bleeding in reproductive-aged women. Practice Bulletin No. 128. American College of Obstetricians and Gynecologists. Obstet Gynecol 2012; 120:197-206.

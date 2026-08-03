@@ -1,0 +1,84 @@
+{
+  "case_id": "NYDEV-008",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202305-162724",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202305-162724",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "2c04faeb899298f2b53c4a4e23fe079abc1ee5bc62526d4f98fbc4940c8f295c"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "50-59",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with obesity (BMI greater than 30) and a comorbidity of hypertension."
+  },
+  "request": {
+    "item_at_issue": "Wegovy 0.25 mg/0.5 mL pen injector (semaglutide)",
+    "requested_disposition": "Coverage approval for Wegovy for chronic weight management"
+  },
+  "denial_rationale": "Insurer denied coverage for Wegovy.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has obesity with BMI greater than 30 and a comorbidity of hypertension.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Office visit notes document extensive dietary therapy, exercise programs, and weight loss programs attempted.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Patient has not achieved adequate weight loss through these measures alone.",
+      "provenance_ref": "R003"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Extensive dietary therapy, exercise programs, and weight loss programs documented in office visit notes; adequate weight loss not achieved."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Office visit notes documenting dietary therapy, exercise, and weight loss program history",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "BMI and hypertension diagnosis documentation",
+      "available_to_model": true
+    }
+  ],
+  "unknowns": [
+    "Duration (in months) of the documented dietary/exercise/weight-loss-program trial.",
+    "Whether any GLP-1 agonist was tried prior to this Wegovy request."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-008.txt",
+      "source_hash": "2c04faeb899298f2b53c4a4e23fe079abc1ee5bc62526d4f98fbc4940c8f295c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-008.txt",
+      "source_hash": "2c04faeb899298f2b53c4a4e23fe079abc1ee5bc62526d4f98fbc4940c8f295c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-008.txt",
+      "source_hash": "2c04faeb899298f2b53c4a4e23fe079abc1ee5bc62526d4f98fbc4940c8f295c",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "case_id": "NYDEV-002",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202211-155386",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202211-155386",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "40-49",
+    "gender": "male",
+    "diagnosis_summary": "Adult male with attention deficit hyperactivity disorder (ADHD), currently prescribed Azstarys."
+  },
+  "request": {
+    "item_at_issue": "Azstarys 39.2 mg/7.8 mg capsules (serdexmethylphenidate + dexmethylphenidate)",
+    "requested_disposition": "Coverage approval for continued Azstarys for ADHD"
+  },
+  "denial_rationale": "Insurer denied coverage, directing the patient to try generic preferred formulary alternatives (e.g., generic Adderall, Ritalin, or Focalin) before Azstarys would be covered.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has a diagnosis of ADHD.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Patient has been taking Azstarys 39.2 mg/7.8 mg per day for 1 month with reported good response.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Patient previously tried Ritalin, Adderall, Vyvanse, Strattera, and Wellbutrin for ADHD without prolonged reported efficacy.",
+      "provenance_ref": "R003"
+    },
+    {
+      "fact_id": "F004",
+      "text": "Azstarys is FDA-approved for treatment of ADHD; the prescribed dose matches the recommended starting dose.",
+      "provenance_ref": "R004"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trials of Ritalin, Adderall, Vyvanse, Strattera, and Wellbutrin, each without prolonged reported efficacy."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "1 month before appeal",
+      "description": "Started Azstarys 39.2 mg/7.8 mg per day; reported good response."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Prescriber records documenting prior medication trials and outcomes",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "One month of reported clinical response data on Azstarys",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E003",
+      "description": "FDA labeling for Azstarys",
+      "available_to_model": true
+    }
+  ],
+  "unknowns": [
+    "Whether the patient specifically trialed generic Focalin (dexmethylphenidate), the formulary alternative most pharmacologically similar to Azstarys.",
+    "Duration and dosing details of each prior medication trial."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-002.txt",
+      "source_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-002.txt",
+      "source_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-002.txt",
+      "source_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R004",
+      "source_file": "sources/raw_snapshots/NYDEV-002.txt",
+      "source_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

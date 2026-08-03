@@ -1,0 +1,29 @@
+{
+  "case_id": "NYDEV-003",
+  "actual_outcome": "upheld",
+  "reviewer_rationale": "The reviewer found Jynarque not medically necessary because, based on the available (non-height-adjusted) kidney measurements, the patient most likely falls into Mayo Clinic ADPKD Class 1A, which predicts low risk of progression; Jynarque's benefit is specifically established for patients at high risk of rapid progression (Classes 1C-1E), so it would be unlikely to benefit this patient.",
+  "decisive_facts": [
+    "Kidney measurements place the patient in the likely-low-risk Mayo Clinic Class 1A category.",
+    "Jynarque's indicated benefit is for adults at risk of rapidly progressing ADPKD (Classes 1C-1E), not low-risk patients."
+  ],
+  "missing_or_weak_evidence": [
+    "Patient height was not provided, so the exact Mayo Clinic class could not be definitively confirmed.",
+    "Total kidney volume was not quantified."
+  ],
+  "cited_authorities": [
+    "Total Kidney Volume (height adjusted) Calculator and ADPKD Prognostic Tool Using Kidney Dimensions.",
+    "Imaging Classification of Autosomal Dominant Polycystic Kidney Disease: A Simple Model for Selecting Patients for Clinical Trials. J Am Soc Nephrol 2015, 26(1): 160-72.",
+    "Torres VE, et al. Tolvaptan in ADPKD Patients With Very Low Kidney Function. Kidney Int Rep. 2021 Jun 9;6(8):2171-2178.",
+    "Torres VE, Chapman A, Devuyst O. Phase 3b, multicenter study of tolvaptan long-term safety in later-stage ADPKD. Clin J Am Soc Nephrol. 2020;16:48-58."
+  ],
+  "outcome_revealing_phrases_removed": [
+    "The denial is: Upheld",
+    "The health plan's determination is upheld.",
+    "The requested medication is not medically necessary for this patient."
+  ],
+  "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
+  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "reviewer": "pending_second_pass_leakage_review",
+  "approval_status": "pending_founder_review",
+  "founder_reviewed": false
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": "NYDEV-005",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202201-144913",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202201-144913",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "92d80baa8a0b4cb7bd56baf5fc83bcd4bc4e404baeb9173cdb65828e152e6511"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "40-49",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with acute migraine headaches."
+  },
+  "request": {
+    "item_at_issue": "Nurtec ODT 75 mg (rimegepant)",
+    "requested_disposition": "Coverage approval for Nurtec ODT for acute migraine"
+  },
+  "denial_rationale": "Insurer denied Nurtec ODT, stating the current outpatient notes on file did not document trial and failure of triptans.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has a diagnosis of acute migraine headaches.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "Patient has previously tried and failed Sumatriptan, Zolmitriptan, and Rizatriptan (ineffective or intolerable side effects), per provider report.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "The specific outpatient notes submitted with the original request did not themselves document this triptan trial/failure history.",
+      "provenance_ref": "R003"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Trials of Sumatriptan, Zolmitriptan, and Rizatriptan; reported ineffective or caused intolerable side effects."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "Provider report describing prior triptan trials and outcomes",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Outpatient clinical notes documenting the triptan trials contemporaneously",
+      "available_to_model": false
+    }
+  ],
+  "unknowns": [
+    "Why the original outpatient notes did not document the triptan trial history that the provider later reported.",
+    "Dates and dosing details of each triptan trial."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-005.txt",
+      "source_hash": "92d80baa8a0b4cb7bd56baf5fc83bcd4bc4e404baeb9173cdb65828e152e6511",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-005.txt",
+      "source_hash": "92d80baa8a0b4cb7bd56baf5fc83bcd4bc4e404baeb9173cdb65828e152e6511",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-005.txt",
+      "source_hash": "92d80baa8a0b4cb7bd56baf5fc83bcd4bc4e404baeb9173cdb65828e152e6511",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

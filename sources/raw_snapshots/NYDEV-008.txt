@@ -1,0 +1,20 @@
+Case Number: 202305-162724
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202305-162724
+Diagnosis: Endocrine/ Metabolic/ Nutritional
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Excellus
+Decision: Overturned
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 50-59
+Decision Year: 2023
+Appeal Agent: Kepro dba IMEDECS
+Coverage Type: PPO
+
+Summary:
+Diagnosis: obesity. Treatment: Wegovy. The insurer denied Wegovy. The health plan's determination is overturned. The patient is a female being prescribed Wegovy 0.25MG (milligrams)/0.5 Pen Injector for the diagnosis of obesity. Coverage for this medication was denied by the health plan. Wegovy 0.25MG/0.5 Pen Injector is medically necessary for this patient. The patient has obesity with a body mass index (BMI) greater than 30 and obesity-related comorbidity (hypertension). She has tried extensive dietary therapy, exercise programs, and weight loss programs as documented in her office visit notes with her provider. In patients who fail to achieve adequate weight loss using these measures alone, pharmacotherapy for obesity is recommended. Semaglutide (Wegovy) is one of the preferred first-line treatments. Single therapy treatment with a GLP-1 (glucagon-like peptide 1) agonist is the preferred approach by experts (Perreault et al). Therefore, Wegovy is medically necessary.
+
+References:
+1) Leigh Perreault, MD. "Obesity in adults: Drug therapy." UpToDate.com.
+2) Leigh Perreault, MD, Caroline Apovian, MD. "Obesity in adults: Overview of management." UpToDate.com.
+3) Leigh Perreault, MD, Linda M Delahanty, MS, RD. "Obesity in adults: Dietary therapy." UpToDate.com.

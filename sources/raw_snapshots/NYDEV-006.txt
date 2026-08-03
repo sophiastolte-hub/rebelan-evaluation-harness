@@ -1,0 +1,20 @@
+Case Number: 202202-146311
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202202-146311
+Diagnosis: Central Nervous System/ Neuromuscular Disorder
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Fidelis Care New York
+Decision: Upheld
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 20-29
+Decision Year: 2022
+Appeal Agent: Kepro dba IMEDECS
+Coverage Type: Medicaid
+
+Summary:
+Diagnosis: Central Nervous System/Neuromuscular Disorder. Treatment: Pharmacy/Prescription Drugs. The insurer denied Vyepti (eptinezumab-jjmr). The denial is upheld. The patient is a female, who has been under the care of a neurologist for a history of migraine headaches. She is said to have previously been started on Vyepti (infusions) for her migraines. Notes indicated that her preventative regimen at that time was a combination of nerve blocks every 6 weeks, zonisamide, gabapentin, magnesium and Vyepti. She was also taking duloxetine, Levothyroxine, Nexplanon, spironolactone and hydroxyzine as needed (PRN). Prior preventative therapies were said to have also included amitriptyline (no benefit), propranolol and atenolol (dropped blood pressure), Aimovig (greater than 3 months without benefit) and Emgality (4 months without benefit). At issue is the medical necessity of Vyepti (eptinezumab-jjmr). The health plan's determination of medical necessity is upheld in whole. The requested health service/treatment of Vyepti (eptinezumab-jjmr) is not medically necessary for this patient. There have not yet been any direct comparison studies completed to date between the self-administered calcitonin gene-related peptide (CGRP) drugs. As such it cannot be concluded that Vyepti would be expected to result in superior outcomes to a trial of Ajovy. There remains a need for direct comparison studies to be concluded to permit such a determination. While the patient self-reports an aversion to needle/injections, it is not otherwise clear why another lay individual or a clinical provider would not otherwise be able to assist with administration of the plan's preferred agent (on a monthly or quarterly basis). The mode of administration is not otherwise a contraindication to a trial of this therapy. The plan offered an alternative service, which is well supported by current literature and has otherwise been shown to be beneficial in the patient's condition. Given these factors, it cannot be concluded that the requested drug is otherwise medically necessary at this time. Therefore, the requested service/treatment of Vyepti (eptinezumab-jjmr) is not medically necessary.
+
+References:
+1) Lipton, Richard B., et al. "Efficacy and safety of eptinezumab in patients with chronic migraine: PROMISE-2." Neurology 94.13 (2020): e1365-e1377.
+2) Dodick, David W., et al. "Eptinezumab for prevention of chronic migraine: A randomized phase 2b clinical trial." Cephalalgia 39.9 (2019): 1075-1085.
+3) Burch, Rebecca. "Preventive migraine treatment." Continuum: Lifelong Learning in Neurology 27.3 (2021): 613-632.

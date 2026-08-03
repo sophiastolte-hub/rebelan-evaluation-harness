@@ -1,0 +1,26 @@
+{
+  "case_id": "NYDEV-002",
+  "actual_outcome": "overturned",
+  "reviewer_rationale": "The reviewer found Azstarys medically necessary because the patient had already tried and failed FDA-approved medications from the main ADHD drug classes (methylphenidate and amphetamine products, Vyvanse, and atomoxetine) and was responding well to Azstarys; per AACAP practice parameters, psychostimulants are the treatment of choice for ADHD and switching a responding patient back to an already-failed drug class would not be reasonable or in the patient's best interest.",
+  "decisive_facts": [
+    "Patient had already tried and failed medications from all major ADHD drug classes cited by the insurer.",
+    "Patient was demonstrating clinical response to Azstarys after 1 month.",
+    "Azstarys is FDA-approved for ADHD."
+  ],
+  "missing_or_weak_evidence": [
+    "No documented trial of generic Focalin specifically, the closest formulary alternative to Azstarys."
+  ],
+  "cited_authorities": [
+    "American Academy of Child and Adolescent Psychiatry (AACAP) Practice Parameters for the Assessment and Treatment of Children, Adolescents, and Adults with Attention Deficit Hyperactivity Disorder."
+  ],
+  "outcome_revealing_phrases_removed": [
+    "The denial is overturned.",
+    "the insurer's denial must be overturned",
+    "The medical necessity for Azstarys services is substantiated."
+  ],
+  "source_hash": "0850b21b7a1bc48a5512fc60cc4f3d2a7a8e0b64466cc6538c8020f0e487c1d7",
+  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "reviewer": "pending_second_pass_leakage_review",
+  "approval_status": "pending_founder_review",
+  "founder_reviewed": false
+}

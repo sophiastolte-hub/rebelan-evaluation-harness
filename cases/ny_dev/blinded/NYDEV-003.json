@@ -1,0 +1,106 @@
+{
+  "case_id": "NYDEV-003",
+  "source": {
+    "agency": "NY DFS External Appeal",
+    "public_case_number": "202210-154794",
+    "url": "https://www.dfs.ny.gov/public-appeals/case-number-202210-154794",
+    "access_date": "2026-08-02",
+    "source_snapshot_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8"
+  },
+  "track": "rx_medical_necessity",
+  "jurisdiction": "NY",
+  "research_condition": "closed_book",
+  "patient_profile": {
+    "age_range": "60-69",
+    "gender": "female",
+    "diagnosis_summary": "Adult female with chronic kidney disease stage 4 secondary to autosomal dominant polycystic kidney disease (ADPKD), plus diabetes, hypertension, hypothyroidism, and hyperlipidemia."
+  },
+  "request": {
+    "item_at_issue": "Jynarque (tolvaptan)",
+    "requested_disposition": "Coverage approval for Jynarque to slow ADPKD progression"
+  },
+  "denial_rationale": "Insurer denied Jynarque, stating the submitted records did not meet medical necessity criteria for use.",
+  "known_facts": [
+    {
+      "fact_id": "F001",
+      "text": "Patient has CKD stage 4 secondary to ADPKD, with comorbid diabetes, hypertension, hypothyroidism, and hyperlipidemia.",
+      "provenance_ref": "R001"
+    },
+    {
+      "fact_id": "F002",
+      "text": "CT abdomen/pelvis showed right kidney 12.6 x 4.4 x 7.9 cm and left kidney 6.5 x 5.8 x 12.2 cm.",
+      "provenance_ref": "R002"
+    },
+    {
+      "fact_id": "F003",
+      "text": "Renal volume was not quantified in the submitted imaging report.",
+      "provenance_ref": "R003"
+    },
+    {
+      "fact_id": "F004",
+      "text": "Patient height was not provided in the submitted records.",
+      "provenance_ref": "R004"
+    }
+  ],
+  "treatment_or_claim_history": [
+    {
+      "event_id": "H001",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "CT abdomen/pelvis performed showing bilateral kidney enlargement consistent with ADPKD."
+    },
+    {
+      "event_id": "H002",
+      "date_or_relative_date": "Prior to appeal",
+      "description": "Provider requested Jynarque to slow progression of kidney disease."
+    }
+  ],
+  "available_evidence": [
+    {
+      "evidence_id": "E001",
+      "description": "CT abdomen/pelvis report with kidney measurements",
+      "available_to_model": true
+    },
+    {
+      "evidence_id": "E002",
+      "description": "Patient height (needed for Mayo Clinic height-adjusted total kidney volume classification)",
+      "available_to_model": false
+    },
+    {
+      "evidence_id": "E003",
+      "description": "Quantified total renal volume calculation",
+      "available_to_model": false
+    }
+  ],
+  "unknowns": [
+    "Patient's height, needed to compute the height-adjusted Mayo Clinic ADPKD risk class.",
+    "Quantified total kidney volume.",
+    "Rate of eGFR decline over time (used to independently assess rapid progression)."
+  ],
+  "task_version": "assignment_v1",
+  "provenance": [
+    {
+      "ref_id": "R001",
+      "source_file": "sources/raw_snapshots/NYDEV-003.txt",
+      "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R002",
+      "source_file": "sources/raw_snapshots/NYDEV-003.txt",
+      "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R003",
+      "source_file": "sources/raw_snapshots/NYDEV-003.txt",
+      "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    },
+    {
+      "ref_id": "R004",
+      "source_file": "sources/raw_snapshots/NYDEV-003.txt",
+      "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
+      "span": "Summary paragraph (see snapshot file; DFS public decision page does not expose line numbers)"
+    }
+  ]
+}

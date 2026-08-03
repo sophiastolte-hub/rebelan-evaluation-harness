@@ -1,0 +1,24 @@
+{
+  "case_id": "NYDEV-004",
+  "actual_outcome": "overturned",
+  "reviewer_rationale": "The reviewer found Phexxi medically necessary because the patient had documented failure of formulary alternatives (multiple oral contraceptives, Gynol II, Shur Seal, and diaphragm) and has a hormone intolerance requiring a non-hormonal method; ACOG guidance supports branded/alternative contraceptive requests when standard options have failed or are clinically inappropriate for the patient.",
+  "decisive_facts": [
+    "Documented failure of formulary contraceptive alternatives per the provider letter.",
+    "Reported hormone intolerance requiring a non-hormonal method."
+  ],
+  "missing_or_weak_evidence": [],
+  "cited_authorities": [
+    "ACOG Committee Opinion No. 375, Brand Versus Generic Oral Contraceptives. August 2007, reaffirmed 2019.",
+    "Lexicomp: Phexxi. UpToDate. October 2021."
+  ],
+  "outcome_revealing_phrases_removed": [
+    "The denial is overturned.",
+    "Yes, the requested Phexxi is medically necessary.",
+    "this would be considered necessary"
+  ],
+  "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "reviewer": "pending_second_pass_leakage_review",
+  "approval_status": "pending_founder_review",
+  "founder_reviewed": false
+}

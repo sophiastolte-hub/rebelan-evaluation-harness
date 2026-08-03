@@ -1,0 +1,20 @@
+Case Number: 202201-144913
+URL: https://www.dfs.ny.gov/public-appeals/case-number-202201-144913
+Diagnosis: Central Nervous System/ Neuromuscular Disorder
+Treatment: Pharmacy/ Prescription Drugs
+Health Plan: Fidelis Care New York
+Decision: Overturned
+Appeal Type: Medical necessity
+Gender: Female
+Age Range: 40-49
+Decision Year: 2022
+Appeal Agent: Kepro dba IMEDECS
+Coverage Type: Medicaid
+
+Summary:
+Diagnosis: Central Nervous System/Neuromuscular Treatment: Pharmacy/Prescription Drugs The health plan denied the requested prescription drug, Nurtec. The health plan's determination is overturned. The patient is a woman with migraine headaches. Treatment with Nurtec ODT is the subject of this review. The patient has previously tried and failed Sumatriptan, Zolmitriptan, and Rizatriptan. These drugs were ineffective or caused intolerable side effects. Nurtec ODT was denied because the current outpatient notes do not document trial and failure of the triptans. At issue is the medical necessity of the requested prescription medication, Nurtec ODT. The health plan's determination of medical necessity is overturned, in whole. Nurtec ODT is medically necessary. The patient has acute migraines. Nurtec ODT is Food and Drug Administration (FDA) approved and is literature supported for the treatment of acute migraines. The primary efficacy analyses were conducted in patients who were treated for a migraine with moderate to severe pain. Nurtec ODT 75 mg. (milligrams) demonstrated an effect on pain freedom and most bothersome symptom (MBS) freedom at two hours after dosing, compared to placebo. As the patient has tried and failed multiple triptans, the use of an alternative medication, such as a Gepant, is appropriate. In this instance, triptans are ineffective and cause adverse side effects. An alternative therapy, Nurtec ODT, is indicated.
+
+References:
+1) Lipton, Richard B., et al. "Rimegepant, An Oral Calcitonin Gene-related Peptide Receptor Antagonist, For Migraine." New England Journal of Medicine 381.2 (2019): 142-149.
+2) Croop, Robert, et al. "Efficacy, Safety, and Tolerability of Rimegepant Orally Disintegrating Tablet for the Acute Treatment of Migraine." The Lancet 394.10200 (2019): 737-745.
+3) Yang, Chun-Pai, et al. "Comparison of New Pharmacologic Agents with Triptans for Treatment of Migraine: A Systematic Review and Meta-analysis." JAMA Network Open 4.10 (2021): e2128544.
