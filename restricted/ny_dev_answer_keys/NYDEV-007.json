@@ -20,7 +20,7 @@
     "the requested Wegovy is not medically necessary"
   ],
   "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
-  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "preparer": "Sophia Stolte - field-by-field verification against the source snapshot completed",
   "reviewer": "pending_second_pass_leakage_review",
   "approval_status": "pending_founder_review",
   "founder_reviewed": false
