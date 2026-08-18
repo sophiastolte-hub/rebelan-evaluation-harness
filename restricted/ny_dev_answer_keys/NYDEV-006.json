@@ -21,7 +21,7 @@
     "is not medically necessary for this patient"
   ],
   "source_hash": "a647846552bb523d81e1ddaca45281f1a68caefa89c72e52ef24223ba66c7a29",
-  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "preparer": "Sophia Stolte - field-by-field verification against the source snapshot completed",
   "reviewer": "pending_second_pass_leakage_review",
   "approval_status": "pending_founder_review",
   "founder_reviewed": false
