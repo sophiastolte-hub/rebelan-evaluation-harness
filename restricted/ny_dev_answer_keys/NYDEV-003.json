@@ -22,7 +22,7 @@
     "The requested medication is not medically necessary for this patient."
   ],
   "source_hash": "ed002a88c7e14144fec9db20fb65901be2e000864357c51670be86b76c2e51b8",
-  "preparer": "Sophia Stolte (AI-drafted extraction; pending Sophia's field-by-field verification against the source snapshot)",
+  "preparer": "Sophia Stolte - field-by-field verification against the source snapshot completed",
   "reviewer": "pending_second_pass_leakage_review",
   "approval_status": "pending_founder_review",
   "founder_reviewed": false
