@@ -1,0 +1,21 @@
+{
+  "case_id": "NYDEV-002",
+  "run_id": "v2-aug18",
+  "structural": {
+    "schema_valid": true,
+    "all_sections_present": true,
+    "citations_resolve": true,
+    "forbidden_claims_found": [],
+    "empty_sections": [],
+    "leakage_scan_clean": true
+  },
+  "automatic_hard_failure": {
+    "failed": false,
+    "reasons": []
+  },
+  "rubric": {
+    "label": "provisional\u2014expert review required",
+    "dimensions": {},
+    "total": null
+  }
+}

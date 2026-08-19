@@ -1,0 +1,110 @@
+{
+  "run_id": "v2-aug18",
+  "split": "ny_dev",
+  "condition": "closed_book",
+  "prompt_name": "assignment_v2",
+  "prompt_hash": "8b0d95a4596e98726515fe3f772de8467337326ff5a2e24c5462771ec696ebef",
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5-20250929",
+  "code_commit": "c91b02d7fd6e2acc3ad9d2ce056fcb9597ca241d",
+  "schema_versions": {
+    "case_packet": "b55499902ce3",
+    "answer_key": "e2895ccd7f43",
+    "model_output": "06fb76074466",
+    "score": "d6183a03da64",
+    "intervention": "d6c9b2a55439"
+  },
+  "started_at_utc": "2026-08-19T01:13:53.410283+00:00",
+  "cases": [
+    {
+      "case_id": "NYDEV-001",
+      "case_hash": "6ce4d4b8a28f67608233c2fffacd9a70b3bd0e880a68fc9f8dc55f8290fa5e52",
+      "latency_seconds": 77.9263428330014,
+      "input_tokens": 3103,
+      "output_tokens": 4244,
+      "estimated_cost_usd": 0.072969,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-002",
+      "case_hash": "95002b62a1369fe85db6200842a3a6083d799cd47d32792dc05f914a5f9806cb",
+      "latency_seconds": 51.22609320799529,
+      "input_tokens": 2801,
+      "output_tokens": 2722,
+      "estimated_cost_usd": 0.049233,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-003",
+      "case_hash": "9f16113527bf49b4caa940df365157221ca8a3fc94da95884e8849333f3e63bb",
+      "latency_seconds": 79.03373691698653,
+      "input_tokens": 2728,
+      "output_tokens": 4008,
+      "estimated_cost_usd": 0.068304,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-004",
+      "case_hash": "28813d8b5aa678bb483f9b4b4312eac2cd49c871cd8999098ad5f113b2216638",
+      "latency_seconds": 60.64105970799574,
+      "input_tokens": 2446,
+      "output_tokens": 3186,
+      "estimated_cost_usd": 0.055127999999999996,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-005",
+      "case_hash": "0bc6815ed4fa561276f348e6e20070a67bcb131dd4f7b2438187dc0000b3350b",
+      "latency_seconds": 64.15547791599238,
+      "input_tokens": 2431,
+      "output_tokens": 3168,
+      "estimated_cost_usd": 0.054813,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-006",
+      "case_hash": "cb857458580255d5c543c7a83f775118d7035cfd916ff9a788c7944c24880698",
+      "latency_seconds": 62.84628420800436,
+      "input_tokens": 2873,
+      "output_tokens": 3191,
+      "estimated_cost_usd": 0.056484,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-007",
+      "case_hash": "a583a43707094df35f9fc1c667fa22c67b16128d66e2c3431b54dcdf0c4fbef1",
+      "latency_seconds": 60.11354662499798,
+      "input_tokens": 3036,
+      "output_tokens": 3004,
+      "estimated_cost_usd": 0.054168,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    },
+    {
+      "case_id": "NYDEV-008",
+      "case_hash": "4de1836448d1f114ab03ed8b74608b7f273305b83d2f6c9bdf9a04203c43416c",
+      "latency_seconds": 59.276430249999976,
+      "input_tokens": 2400,
+      "output_tokens": 3028,
+      "estimated_cost_usd": 0.05261999999999999,
+      "json_repair_needed": true,
+      "schema_valid": true,
+      "schema_errors": []
+    }
+  ],
+  "total_estimated_cost_usd": 0.463719,
+  "finished_at_utc": "2026-08-19T01:22:28.730711+00:00"
+}

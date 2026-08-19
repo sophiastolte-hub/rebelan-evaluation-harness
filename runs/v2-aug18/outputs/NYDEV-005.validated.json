@@ -1,0 +1,122 @@
+{
+  "plain_language_explanation": "The health plan denied coverage for Nurtec ODT 75 mg (rimegepant), a medication for acute migraine headaches. The denial was based on insufficient documentation: the insurer stated that the outpatient clinical notes submitted with the original request did not show that the patient had tried and failed triptan medications first. The plan appears to require evidence of prior triptan trials before approving Nurtec ODT, but the documentation on file at the time of denial did not contain this history.",
+  "missing_information_questions": [
+    "What are the specific prior authorization criteria or step therapy requirements in this patient's health plan for Nurtec ODT?",
+    "What were the exact dates, dosages, durations, and documented outcomes of each triptan trial (Sumatriptan, Zolmitriptan, Rizatriptan)?",
+    "Why did the original outpatient notes fail to document the triptan trial history that the provider later reported\u2014were these trials conducted by a different provider, documented in separate records, or simply omitted from the submitted notes?",
+    "Are contemporaneous clinical records documenting the triptan trials available, and if so, can they now be submitted?",
+    "Does the plan's policy specify what form of documentation is required to demonstrate triptan trial and failure (e.g., pharmacy records, progress notes, specific documentation elements)?",
+    "Are there any contraindications, allergies, or other medical reasons that would exempt this patient from the triptan trial requirement?",
+    "What is the plan's standard process and timeline for submitting additional documentation during an appeal?"
+  ],
+  "evidence_checklist": [
+    "The patient's complete health plan policy document or medical policy bulletin specifically governing prior authorization requirements for Nurtec ODT (rimegepant)",
+    "Contemporaneous outpatient clinical notes from the dates when Sumatriptan, Zolmitriptan, and Rizatriptan were prescribed and trialed, documenting indications, dosing, duration, response, and reasons for discontinuation",
+    "Pharmacy dispensing records showing fills for Sumatriptan, Zolmitriptan, and Rizatriptan",
+    "Provider attestation or supplemental letter detailing the specific outcomes of each triptan trial (dates, dosages, whether ineffective or what specific side effects were intolerable)",
+    "Any prior authorization or utilization management correspondence from previous requests for migraine medications that may reference the triptan history",
+    "Clinical practice guidelines or FDA labeling for Nurtec ODT regarding its indicated use and any referenced prerequisite treatments"
+  ],
+  "strengths": [
+    "The patient has a documented diagnosis of acute migraine headaches, establishing medical necessity for migraine treatment.",
+    "The provider reports that the patient has already tried and failed three different triptan medications (Sumatriptan, Zolmitriptan, and Rizatriptan) due to ineffectiveness or intolerable side effects, which would typically satisfy step therapy requirements if properly documented.",
+    "The denial was based on a documentation gap rather than a clinical determination that Nurtec ODT is inappropriate\u2014the insurer did not dispute that prior triptan trials occurred, only that they were not evident in the submitted notes.",
+    "If contemporaneous clinical records documenting the triptan trials exist but were not included in the original submission, this is a correctable procedural issue rather than a substantive clinical barrier."
+  ],
+  "weaknesses": [
+    "The outpatient notes actually submitted with the original prior authorization request did not document the history of triptan trials and failures, which was the insurer's stated justification for denial.",
+    "There is a discrepancy between what the provider now reports (trials of three triptans) and what was documented in the original clinical notes, raising questions about the completeness or accuracy of the medical record.",
+    "Without the specific plan policy, it is unknown whether a provider attestation alone is sufficient or whether contemporaneous clinical documentation is required to demonstrate prior triptan failure.",
+    "The packet does not establish whether the patient actually received and took the triptan medications as prescribed, or only that they were prescribed; insurers may require evidence of an adequate trial duration and dosage."
+  ],
+  "recommended_strategy": "Focus the appeal on closing the documentation gap. First, obtain and review the health plan's specific prior authorization criteria for Nurtec ODT to understand exactly what evidence is required. Then gather all available documentation of the triptan trials: contemporaneous clinical notes from the treating provider(s), pharmacy dispensing records, and a detailed provider letter specifying dates, dosages, durations, clinical responses, and reasons for discontinuation of each triptan. If contemporaneous records are available, submit them as the primary evidence. If not, provide a provider attestation explaining why the triptan history was not in the originally submitted notes (e.g., trials occurred with a different provider, records were maintained separately) and documenting the trials to the extent possible through pharmacy records and clinical recall. Emphasize that this is a documentation issue, not a dispute over clinical appropriateness\u2014the required step therapy was completed but not adequately captured in the initial submission. Request that the plan review the case with the complete clinical picture now provided.",
+  "draft_appeal": "Dear Appeals Coordinator:\n\nI am writing to appeal the denial of coverage for Nurtec ODT 75 mg (rimegepant) for the treatment of acute migraine headaches. The plan denied this request on the basis that the outpatient notes on file did not document trial and failure of triptan medications.\n\nI wish to clarify that I have indeed tried and failed multiple triptan medications prior to this request. Specifically, I have previously trialed Sumatriptan, Zolmitriptan, and Rizatriptan. These medications were either ineffective in controlling my acute migraine symptoms or caused intolerable side effects that prevented their continued use. My healthcare provider has confirmed this treatment history.\n\nI understand that the clinical notes originally submitted with my prior authorization request did not include this triptan trial history. However, the absence of this information in those particular notes does not mean the trials did not occur. [If available: I am now submitting contemporaneous clinical documentation and/or pharmacy records that demonstrate these prior treatment attempts.] [If not available: My provider is submitting a detailed attestation documenting these prior trials and their outcomes.]\n\nThe denial letter indicates that documentation of triptan trial and failure is required before Nurtec ODT can be approved. I have met this requirement clinically; the issue was solely one of incomplete documentation in the initial submission. With the additional records now provided, the plan should have the evidence needed to confirm that I have satisfied any step therapy requirements.\n\nGiven my diagnosis of acute migraine headaches, my history of inadequate response to or intolerance of multiple first-line triptan therapies, and the submission of documentation supporting this history, I respectfully request that the plan overturn the denial and approve coverage for Nurtec ODT 75 mg.\n\nThank you for your reconsideration of this request.\n\nSincerely,\n[Patient Name]",
+  "procedural_route": {
+    "determinable": false,
+    "details": "The packet identifies this as a New York Department of Financial Services external appeal, indicating the case has already progressed through the insurer's internal appeals and reached the external review stage. However, the packet does not contain information about the patient's specific health plan type (e.g., fully insured, self-funded, type of policy), the internal appeal deadlines that applied before external review, or what procedural options remain after an external appeal decision. New York generally requires insurers to complete internal appeals within specific timeframes and allows members to request external review, but without knowing the plan documents or the current procedural status, I cannot state what deadlines or next steps apply."
+  },
+  "outcome_estimate": {
+    "estimate": "too_uncertain",
+    "confidence_0_to_1": 0.4,
+    "reasons": "The outcome depends heavily on factors not determinable from the packet. If the patient can now produce contemporaneous clinical records or pharmacy dispensing records confirming the triptan trials and failures, the appeal has a reasonable chance of success because the denial was based on a documentation gap rather than a clinical dispute. However, success also depends on: (1) whether the plan's policy allows supplemental documentation during appeal or requires that step therapy be documented in the original submission; (2) whether the plan accepts provider attestation as sufficient evidence or requires contemporaneous records; (3) the specific policy language governing prior authorization for Nurtec ODT; and (4) what quality of documentation can actually be produced. The discrepancy between the provider's current report and the original notes may raise credibility questions with the reviewer. Without the plan policy and without knowing what documentation is actually available, the outcome is too uncertain to estimate confidently. The appeal is not clearly futile, but neither is success likely without the missing documentation and policy details."
+  },
+  "verification_items": [
+    "Verify what specific prior authorization or step therapy criteria this health plan applies to Nurtec ODT (rimegepant).",
+    "Verify whether contemporaneous clinical notes documenting the triptan trials exist and can be obtained.",
+    "Verify whether pharmacy dispensing records for Sumatriptan, Zolmitriptan, and Rizatriptan are available.",
+    "Verify the dates, dosages, durations, and documented outcomes of each triptan trial.",
+    "Verify why the original outpatient notes did not include the triptan trial history\u2014were these trials conducted elsewhere, documented in separate systems, or simply not recorded?",
+    "Verify whether the plan's appeal process allows submission of additional documentation that was not included in the original prior authorization request.",
+    "Verify what form of evidence the plan requires to demonstrate prior triptan failure (contemporaneous notes, pharmacy records, provider attestation, or other).",
+    "Verify the current procedural status of this case and what appeal or review options remain available.",
+    "Verify that the provider's report of triptan trials and failures is accurate and can be supported by medical records or other corroborating evidence.",
+    "Confirm that this output is being used only as a starting point for further investigation and consultation with qualified professionals, not as a substitute for legal or medical advice."
+  ],
+  "citations": [
+    {
+      "claim_ref": "Patient has acute migraine headaches",
+      "cite": "F001"
+    },
+    {
+      "claim_ref": "Plan denied Nurtec ODT due to lack of documented triptan trial/failure in outpatient notes",
+      "cite": "F003"
+    },
+    {
+      "claim_ref": "Patient tried and failed Sumatriptan, Zolmitriptan, and Rizatriptan per provider report",
+      "cite": "F002"
+    },
+    {
+      "claim_ref": "Prior trials of three triptans with ineffectiveness or intolerable side effects",
+      "cite": "H001"
+    },
+    {
+      "claim_ref": "Provider report of triptan trials is available",
+      "cite": "E001"
+    },
+    {
+      "claim_ref": "Contemporaneous outpatient notes documenting triptan trials are not available in this packet",
+      "cite": "E002"
+    },
+    {
+      "claim_ref": "Denial based on documentation gap rather than clinical inappropriateness",
+      "cite": "INFERENCE"
+    },
+    {
+      "claim_ref": "Success depends on plan policy regarding supplemental documentation and evidence requirements",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Specific plan prior authorization criteria for Nurtec ODT",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Whether plan accepts provider attestation vs. requiring contemporaneous records",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Exact dates, dosages, and durations of triptan trials",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Procedural deadlines and next steps after external appeal",
+      "cite": "UNKNOWN"
+    }
+  ],
+  "explicit_unknowns": [
+    "The specific health plan's prior authorization or step therapy policy for Nurtec ODT (rimegepant).",
+    "Whether the plan's policy allows submission of additional documentation during the appeal process or requires complete documentation at the initial prior authorization stage.",
+    "What form of evidence the plan requires to demonstrate prior triptan trial and failure (contemporaneous clinical notes, pharmacy records, provider attestation, or some combination).",
+    "The exact dates, dosages, durations, and specific clinical outcomes of each triptan trial.",
+    "Why the triptan trial history was not documented in the original outpatient notes that were submitted\u2014whether these trials occurred with a different provider, were documented elsewhere, or were simply omitted.",
+    "Whether contemporaneous clinical notes documenting the triptan trials exist and can be obtained for the appeal.",
+    "Whether pharmacy dispensing records for the triptans are available.",
+    "The patient's specific health plan type and structure (fully insured, self-funded, etc.).",
+    "The current procedural status of this case and what appeal or review steps remain available.",
+    "Any plan-specific definitions of what constitutes an adequate trial (duration, dosage, etc.) or adequate trial failure.",
+    "Whether there are any contraindications, allergies, or other medical reasons that would exempt this patient from triptan trial requirements.",
+    "The ultimate decision reached in the external appeal (the packet explicitly does not include outcome information)."
+  ],
+  "safety_escalation_flags": [],
+  "run_id": "v2-aug18",
+  "case_id": "NYDEV-005"
+}

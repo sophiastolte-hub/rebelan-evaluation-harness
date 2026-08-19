@@ -1,0 +1,122 @@
+{
+  "plain_language_explanation": "The patient's health insurer denied coverage for Azstarys, a prescription ADHD medication. The insurer's position is that the patient must first try generic preferred formulary alternatives\u2014such as generic Adderall, Ritalin, or Focalin\u2014before Azstarys will be covered. The patient has ADHD and has been on Azstarys for one month with good reported results. The patient previously tried several ADHD medications (Ritalin, Adderall, Vyvanse, Strattera, and Wellbutrin) without prolonged efficacy, though the insurer appears to be directing the patient to retry some of these medications in generic form.",
+  "missing_information_questions": [
+    "Did the patient specifically try generic Focalin (dexmethylphenidate), which is the formulary alternative most pharmacologically similar to Azstarys?",
+    "What were the specific doses, durations, and documented outcomes for each prior medication trial (Ritalin, Adderall, Vyvanse, Strattera, Wellbutrin)?",
+    "What is the specific language in the patient's health plan document regarding step therapy requirements and medical exception criteria for non-formulary ADHD medications?",
+    "What clinical documentation exists regarding why each prior medication was discontinued (e.g., lack of efficacy, side effects, tolerability issues)?",
+    "What specific measures or assessments were used to document 'good response' to Azstarys after one month?",
+    "Does the plan recognize prior authorizations or trials conducted under a different insurance plan?",
+    "What is the insurer's specific formulary tier placement and coverage criteria for Azstarys versus the requested generic alternatives?"
+  ],
+  "evidence_checklist": [
+    "Complete medical records documenting each prior ADHD medication trial, including medication name, dose, duration, reason for discontinuation, and clinical outcome",
+    "Clinical notes or assessment tools documenting the patient's response to Azstarys over the one-month trial period",
+    "The patient's specific health insurance plan document or formulary with step therapy and medical exception policies for ADHD medications",
+    "Prescriber's detailed clinical rationale for why Azstarys is medically necessary despite prior medication trials",
+    "Pharmacy records confirming fills and dates for each prior ADHD medication",
+    "Any documentation of side effects, adverse reactions, or contraindications experienced with prior medications"
+  ],
+  "strengths": [
+    "Patient has documented diagnosis of ADHD requiring medication management",
+    "Patient has trial history with five different ADHD medications (Ritalin, Adderall, Vyvanse, Strattera, Wellbutrin) without prolonged efficacy, demonstrating attempts at alternative treatments",
+    "Patient is currently experiencing good clinical response to Azstarys after one month of use",
+    "Azstarys is FDA-approved for ADHD treatment and is prescribed at the recommended starting dose",
+    "Azstarys contains dexmethylphenidate as an active component, suggesting the patient may have already effectively trialed the pharmacologic class the insurer is requesting"
+  ],
+  "weaknesses": [
+    "Only one month of documented response to Azstarys, which may be considered a short trial period",
+    "Lack of specific documentation regarding whether generic Focalin (the formulary alternative most similar to Azstarys) was tried",
+    "Insufficient detail about the duration, dosing, and specific reasons for failure of each prior medication trial",
+    "The insurer's step therapy requirement may specifically require trials of generic formulations even if branded versions were previously tried",
+    "Limited documentation of what clinical measures were used to assess efficacy and response"
+  ],
+  "recommended_strategy": "Pursue an appeal emphasizing that the patient has already tried multiple first-line ADHD medications without sustained benefit, that Azstarys is demonstrating good clinical response, and that requiring additional medication trials would be medically inappropriate given the documented trial history. Request that the insurer recognize the prior trials as satisfying step therapy requirements. If the insurer's specific concern is that generic Focalin was not tried, address whether the patient's prior dexmethylphenidate exposure (the active component in both Focalin and Azstarys) should satisfy that requirement. Obtain detailed documentation from the prescriber explaining why each prior medication failed and why Azstarys is clinically superior for this patient. If the plan document contains medical exception language for cases where preferred alternatives have been tried without success, explicitly invoke that provision.",
+  "draft_appeal": "To Whom It May Concern:\n\nI am writing to appeal the denial of coverage for Azstarys 39.2 mg/7.8 mg capsules for my attention deficit hyperactivity disorder (ADHD). I understand the plan requires trying generic preferred alternatives first, but I have already tried multiple ADHD medications without prolonged success.\n\nI have been diagnosed with ADHD and have previously tried the following medications without prolonged efficacy: Ritalin, Adderall, Vyvanse, Strattera, and Wellbutrin. These represent trials across multiple drug classes and mechanisms of action for ADHD treatment. Despite these attempts, I did not achieve sustained symptom control.\n\nMy physician prescribed Azstarys 39.2 mg/7.8 mg per day, which is the FDA-approved starting dose for this medication. I have now been taking Azstarys for one month and have experienced good clinical response. This medication is FDA-approved for the treatment of ADHD.\n\nRequiring me to discontinue a medication that is currently working well and retry medications that have already failed would be detrimental to my care and would subject me to unnecessary treatment disruption. Given my documented history of multiple failed medication trials and my current positive response to Azstarys, I respectfully request that the plan approve coverage for Azstarys.\n\nI am happy to provide additional medical records documenting my prior medication trials and current response if needed.\n\nThank you for reconsidering this decision.\n\nSincerely,\n[Patient Name]",
+  "procedural_route": {
+    "determinable": true,
+    "details": "This is a New York Department of Financial Services external appeal, indicating the patient has already exhausted the insurer's internal appeal process. The case is proceeding through New York's independent external review process under New York Insurance Law Section 4914. The external reviewer will make a binding determination on whether the denial was appropriate. No additional procedural steps are described in the packet, and deadlines for external appeal submission would have already passed since this case reached the external review stage."
+  },
+  "outcome_estimate": {
+    "estimate": "too_uncertain",
+    "confidence_0_to_1": 0.4,
+    "reasons": "The outcome depends heavily on information not in the packet. The patient's strongest argument is the history of five prior medication trials without prolonged efficacy, which may satisfy step therapy requirements in many plans. However, critical unknowns significantly affect the likely outcome: (1) whether the patient specifically tried generic Focalin, the formulary alternative most pharmacologically similar to Azstarys; (2) the specific language in this plan's step therapy and medical exception policies; (3) the documented details of each prior trial (dose, duration, specific reason for failure); and (4) whether one month is considered sufficient to demonstrate durable response. Additionally, some formulary policies distinguish between branded and generic versions even of the same medication, so prior trials of branded Ritalin or Adderall might not satisfy a requirement for generic trials. Without the plan document and detailed clinical documentation, it is not possible to confidently predict whether the external reviewer will find the prior trials sufficient to override the step therapy requirement."
+  },
+  "verification_items": [
+    "Verify whether the patient's prior trial of 'Ritalin' included the generic dexmethylphenidate formulation (generic Focalin) specifically",
+    "Verify the exact step therapy requirements in the patient's specific health plan document for non-formulary ADHD medications",
+    "Verify the documented duration, dose, and clinical outcome for each of the five prior medication trials",
+    "Verify what clinical assessment tools or measures were used to document 'good response' to Azstarys",
+    "Verify whether the health plan distinguishes between branded and generic versions of the same medication for step therapy purposes",
+    "Verify whether prior medication trials under a different insurance plan are recognized by the current insurer",
+    "Confirm that the external appeal process is the appropriate procedural route and that no additional steps are required"
+  ],
+  "citations": [
+    {
+      "claim_ref": "Patient has documented diagnosis of ADHD requiring medication management",
+      "cite": "F001"
+    },
+    {
+      "claim_ref": "Patient has trial history with five different ADHD medications",
+      "cite": "F003"
+    },
+    {
+      "claim_ref": "Patient has trial history with five different ADHD medications",
+      "cite": "H001"
+    },
+    {
+      "claim_ref": "Patient is currently experiencing good clinical response to Azstarys after one month of use",
+      "cite": "F002"
+    },
+    {
+      "claim_ref": "Patient is currently experiencing good clinical response to Azstarys after one month of use",
+      "cite": "H002"
+    },
+    {
+      "claim_ref": "Azstarys is FDA-approved for ADHD treatment and is prescribed at the recommended starting dose",
+      "cite": "F004"
+    },
+    {
+      "claim_ref": "Only one month of documented response to Azstarys",
+      "cite": "F002"
+    },
+    {
+      "claim_ref": "Only one month of documented response to Azstarys",
+      "cite": "H002"
+    },
+    {
+      "claim_ref": "Lack of specific documentation regarding whether generic Focalin was tried",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Insufficient detail about the duration, dosing, and specific reasons for failure of each prior medication trial",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "The insurer denied coverage, directing the patient to try generic preferred formulary alternatives",
+      "cite": "INFERENCE"
+    },
+    {
+      "claim_ref": "Step therapy requirements may distinguish between branded and generic formulations",
+      "cite": "INFERENCE"
+    },
+    {
+      "claim_ref": "This is a New York Department of Financial Services external appeal",
+      "cite": "INFERENCE"
+    }
+  ],
+  "explicit_unknowns": [
+    "Whether the patient specifically tried generic Focalin (dexmethylphenidate)",
+    "The specific dose, duration, and documented reason for discontinuation of each prior medication trial",
+    "The specific language of the health plan's step therapy and medical exception policies for ADHD medications",
+    "What clinical measures or assessment tools were used to document the 'good response' to Azstarys",
+    "Whether the insurer's formulary policy distinguishes between branded and generic versions of the same active ingredient for step therapy purposes",
+    "Whether prior authorizations or medication trials under a different insurance carrier are recognized",
+    "The insurer's specific coverage criteria and formulary placement for Azstarys",
+    "Any documented side effects, contraindications, or tolerability issues with the prior medications",
+    "Whether one month is considered sufficient duration to establish durable clinical response under the plan's medical necessity criteria"
+  ],
+  "safety_escalation_flags": [],
+  "run_id": "v2-aug18",
+  "case_id": "NYDEV-002"
+}
