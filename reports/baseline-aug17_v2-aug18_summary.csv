@@ -1,0 +1,17 @@
+run_id,split,condition,case_id,schema_valid,json_repair_needed,structural_all_sections_present,structural_citations_resolve,structural_leakage_clean,automatic_hard_failure,hard_failure_reasons,rubric_label,rubric_total,latency_seconds,estimated_cost_usd
+baseline-aug17,ny_dev,closed_book,NYDEV-001,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,86.32695404101105,0.075267
+baseline-aug17,ny_dev,closed_book,NYDEV-002,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,66.84619299999031,0.055716
+baseline-aug17,ny_dev,closed_book,NYDEV-003,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,82.78247850001208,0.066252
+baseline-aug17,ny_dev,closed_book,NYDEV-004,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,76.81984429099248,0.062601
+baseline-aug17,ny_dev,closed_book,NYDEV-005,False,True,True,True,True,False,,provisional—expert review required,,60.8100987910002,0.055551
+baseline-aug17,ny_dev,closed_book,NYDEV-006,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,68.4970056660095,0.06100200000000001
+baseline-aug17,ny_dev,closed_book,NYDEV-007,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,73.05262950000179,0.058341
+baseline-aug17,ny_dev,closed_book,NYDEV-008,False,True,True,False,True,True,fabricated_citation,provisional—expert review required,,57.78571487500449,0.052278
+v2-aug18,ny_dev,closed_book,NYDEV-001,True,True,True,True,True,False,,provisional—expert review required,,77.9263428330014,0.072969
+v2-aug18,ny_dev,closed_book,NYDEV-002,True,True,True,True,True,False,,provisional—expert review required,,51.22609320799529,0.049233
+v2-aug18,ny_dev,closed_book,NYDEV-003,True,True,True,True,True,False,,provisional—expert review required,,79.03373691698653,0.068304
+v2-aug18,ny_dev,closed_book,NYDEV-004,True,True,True,True,True,False,,provisional—expert review required,,60.64105970799574,0.055127999999999996
+v2-aug18,ny_dev,closed_book,NYDEV-005,True,True,True,True,True,False,,provisional—expert review required,,64.15547791599238,0.054813
+v2-aug18,ny_dev,closed_book,NYDEV-006,True,True,True,True,True,False,,provisional—expert review required,,62.84628420800436,0.056484
+v2-aug18,ny_dev,closed_book,NYDEV-007,True,True,True,True,True,False,,provisional—expert review required,,60.11354662499798,0.054168
+v2-aug18,ny_dev,closed_book,NYDEV-008,True,True,True,True,True,False,,provisional—expert review required,,59.276430249999976,0.05261999999999999
