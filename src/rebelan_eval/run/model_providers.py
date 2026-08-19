@@ -27,7 +27,7 @@ class ModelResponse:
 class ModelProvider(Protocol):
     name: str
 
-    def generate(self, *, system: str, user: str, max_tokens: int = 4096) -> ModelResponse: ...
+    def generate(self, *, system: str, user: str, max_tokens: int = 8192) -> ModelResponse: ...
 
 
 # Approximate public per-million-token pricing, used only for the harness's
@@ -73,7 +73,7 @@ class AnthropicProvider:
         self._client = anthropic.Anthropic(api_key=api_key)
         self.model = model or os.environ.get("EVAL_MODEL", "claude-sonnet-4-5-20250929")
 
-    def generate(self, *, system: str, user: str, max_tokens: int = 4096) -> ModelResponse:
+    def generate(self, *, system: str, user: str, max_tokens: int = 8192) -> ModelResponse:
         start = time.monotonic()
         response = self._client.messages.create(
             model=self.model,
@@ -111,7 +111,7 @@ class OfflineFixtureProvider:
     def __init__(self, model: str | None = None):
         self.model = model or "offline-fixture-v1"
 
-    def generate(self, *, system: str, user: str, max_tokens: int = 4096) -> ModelResponse:
+    def generate(self, *, system: str, user: str, max_tokens: int = 8192) -> ModelResponse:
         import json
         import re
 

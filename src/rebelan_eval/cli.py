@@ -18,6 +18,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import click
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from rebelan_eval import schema_validate
 from rebelan_eval.ingest.allowlist import IsolationViolation, read_allowlisted

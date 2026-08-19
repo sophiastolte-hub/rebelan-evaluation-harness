@@ -1,0 +1,137 @@
+```json
+{
+  "plain_language_explanation": "The health plan denied coverage for Vyepti (eptinezumab-jjmr), an infused medication for preventing chronic migraines. The patient is a woman in her 20s with chronic migraine who is under active neurology care. She currently receives Vyepti infusions as part of a multi-drug preventive regimen that also includes nerve blocks every 6 weeks, zonisamide, gabapentin, and magnesium. The insurer denied Vyepti and instead offered Ajovy, a different migraine preventive drug from the same class (CGRP agents) that the patient would self-inject at home. The denial appears to be based on the plan's formulary preference for Ajovy as the preferred self-administered CGRP therapy, rather than on a determination that Vyepti is not medically necessary.",
+  "missing_information_questions": [
+    "Has the patient tried Ajovy specifically, or only the other CGRP agents (Aimovig and Emgality)?",
+    "What specific plan document or formulary policy requires trial of Ajovy before Vyepti?",
+    "Does the patient have a documented clinical diagnosis or condition related to needle aversion (e.g., needle phobia, vasovagal response, anxiety disorder) beyond self-report?",
+    "What was the specific duration and dosing of the Aimovig and Emgality trials?",
+    "What is the specific definition of 'adequate trial' or 'failure' in the plan's coverage policy for CGRP agents?",
+    "Has the patient experienced measurable improvement in migraine frequency, severity, or functional status on Vyepti compared to prior therapies?",
+    "What is the plan's standard step-therapy protocol for chronic migraine preventive medications?",
+    "Are there documented medical contraindications to self-injection for this patient?",
+    "What is the deadline for submitting this appeal?"
+  ],
+  "evidence_checklist": [
+    {
+      "priority": 1,
+      "item": "Complete plan formulary and medical necessity policy for CGRP inhibitors, specifically showing any step-therapy requirements"
+    },
+    {
+      "priority": 2,
+      "item": "Neurology visit notes documenting clinical response to Vyepti (migraine frequency, severity, functional improvement)"
+    },
+    {
+      "priority": 3,
+      "item": "Documentation of whether Ajovy was specifically tried, and if so, the outcome; if not tried, clinical justification for why it should not be required"
+    },
+    {
+      "priority": 4,
+      "item": "Complete records of Aimovig and Emgality trials, including duration, dosing, adherence, and reasons for discontinuation"
+    },
+    {
+      "priority": 5,
+      "item": "Clinical documentation of needle aversion if it rises to a level that would constitute a medical contraindication or barrier to self-injection"
+    },
+    {
+      "priority": 6,
+      "item": "Letter of medical necessity from treating neurologist explaining why Vyepti is specifically indicated over self-administered alternatives"
+    },
+    {
+      "priority": 7,
+      "item": "Headache diary or other objective tracking of migraine frequency before and after starting Vyepti"
+    },
+    {
+      "priority": 8,
+      "item": "Appeal deadline and procedural requirements from plan denial letter or Summary Plan Description"
+    }
+  ],
+  "strengths": [
+    {
+      "point": "Patient has failed multiple prior preventive therapies from different drug classes, demonstrating refractory chronic migraine",
+      "citation": {"claim_ref": "Failed amitriptyline, propranolol, atenolol, Aimovig (>3 months), and Emgality (4 months)", "cite": "F004"}
+    },
+    {
+      "point": "Patient has already tried two other CGRP inhibitors (Aimovig and Emgality) for adequate durations without benefit, suggesting the class as a whole may not work via self-injection or that specific agents differ in efficacy for this patient",
+      "citation": {"claim_ref": "Tried Aimovig over 3 months and Emgality for 4 months without benefit", "cite": "F004"}
+    },
+    {
+      "point": "Patient is currently on Vyepti as part of an active treatment regimen, implying the neurologist has determined it appropriate and potentially effective",
+      "citation": {"claim_ref": "Current preventive regimen includes Vyepti infusions", "cite": "F002"}
+    },
+    {
+      "point": "Patient reports aversion to needles/injections, which could affect adherence to a self-administered therapy like Ajovy",
+      "citation": {"claim_ref": "Patient self-reports an aversion to needles/injections", "cite": "F005"}
+    },
+    {
+      "point": "Complex multi-modal regimen suggests severe, treatment-resistant migraine requiring specialist-directed care",
+      "citation": {"claim_ref": "Current regimen includes nerve blocks every 6 weeks, zonisamide, gabapentin, magnesium, and Vyepti", "cite": "F002"}
+    }
+  ],
+  "weaknesses": [
+    {
+      "point": "The packet does not document whether Ajovy specifically (the plan's preferred agent) has been tried",
+      "citation": {"claim_ref": "Whether a formal trial of Ajovy has been attempted is unknown", "cite": "UNKNOWN"}
+    },
+    {
+      "point": "If the plan's coverage policy requires step-therapy with Ajovy before Vyepti, and Ajovy has not been tried, the denial may align with plan terms",
+      "citation": {"claim_ref": "Plan offers Ajovy as preferred preventive therapy; whether step-therapy is required is unknown", "cite": "INFERENCE"}
+    },
+    {
+      "point": "Needle aversion is self-reported and may not constitute a documented medical contraindication to self-injection",
+      "citation": {"claim_ref": "Whether needle aversion has a documented clinical basis beyond self-report is unknown", "cite": "UNKNOWN"}
+    },
+    {
+      "point": "All three CGRP inhibitors (Aimovig, Emgality, Ajovy) target the same biological pathway; the plan may argue that failure of two should predict failure of the third if all are self-injected",
+      "citation": {"claim_ref": "Insurer offers Ajovy, another CGRP agent, as alternative", "cite": "INFERENCE"}
+    }
+  ],
+  "recommended_strategy": "Appeal on the basis that the patient has already failed adequate trials of two CGRP inhibitors from the same class (Aimovig and Emgality) and multiple other preventive drug classes, demonstrating refractory chronic migraine that warrants a trial of an infused CGRP agent. Argue that requiring trial of a third self-administered CGRP agent (Ajovy) when two have already failed is unlikely to benefit the patient and delays access to a therapy already deemed appropriate by the treating neurologist. If needle aversion is clinically significant, obtain documentation from the neurologist. If Ajovy has been tried, document that clearly. Request the plan's specific medical necessity criteria and step-therapy protocol for CGRP inhibitors, and argue that the patient meets any reasonable definition of having exhausted self-administered options. Emphasize that Vyepti is already part of the current treatment plan under specialist care, implying clinical appropriateness and potentially observed benefit.",
+  "draft_appeal": "To Whom It May Concern:\n\nI am writing to appeal the denial of coverage for Vyepti (eptinezumab-jjmr) infusions for the treatment of my chronic migraine. I am currently under the care of a neurologist for chronic migraine and have been prescribed Vyepti as part of a comprehensive preventive regimen.\n\nI have tried numerous migraine preventive therapies without adequate benefit or due to intolerable side effects:\n- Amitriptyline: no benefit\n- Propranolol and atenolol: discontinued due to dropping blood pressure\n- Aimovig: tried for over 3 months without benefit\n- Emgality: tried for 4 months without benefit\n\nMy current preventive regimen includes nerve blocks every 6 weeks, zonisamide, gabapentin, magnesium, and Vyepti infusions. I also take duloxetine, levothyroxine, Nexplanon, spironolactone, and hydroxyzine as needed for other conditions. Despite this complex regimen, my migraines remain chronic and require ongoing specialist management.\n\nI understand that the plan has offered Ajovy as an alternative CGRP inhibitor. However, I have already tried two other medications in this same class—Aimovig for over 3 months and Emgality for 4 months—without benefit. Requiring me to try a third self-administered CGRP agent when two have already failed is unlikely to provide relief and only delays access to the treatment my neurologist has determined appropriate for my condition.\n\nAdditionally, I have an aversion to needles and self-injection, which may affect my ability to consistently adhere to a self-administered therapy like Ajovy.\n\nMy neurologist has prescribed Vyepti infusions as part of my current treatment plan, and I am already receiving this therapy under their supervision. I respectfully request that the plan approve coverage for Vyepti so that I can continue the treatment regimen my specialist has determined is medically necessary for my refractory chronic migraine.\n\nThank you for reconsidering this denial.\n\nSincerely,\n[Patient Name]",
+  "procedural_route": {
+    "determinable": false,
+    "details": "The packet identifies this as a New York DFS External Appeal (case number 202202-146311), indicating the patient has already pursued external review in New York. However, the packet does not contain the original denial letter, Summary Plan Description, or plan documents that would specify internal appeal deadlines, external review timelines, or the procedural steps required. The fact that an external appeal decision was reached suggests procedural routes were followed, but I cannot state specific deadlines or next steps from the information provided."
+  },
+  "outcome_estimate": {
+    "estimate": "too_uncertain",
+    "confidence_0_to_1": 0.45,
+    "reasons": "The outcome depends critically on information not in the packet: (1) whether Ajovy was specifically tried; (2) the plan's written step-therapy policy; (3) whether Vyepti has produced documented clinical improvement; and (4) whether needle aversion is medically documented. If Ajovy was not tried and the plan's policy strictly requires it, the appeal faces an uphill battle unless needle aversion or futility of a third CGRP trial can be persuasively argued. If Ajovy was tried and failed, or if the patient has documented improvement on Vyepti, the case is much stronger. The fact that two CGRP agents have already failed supports the argument that the class may not work for this patient via self-injection, but plans often require exhaustion of all formulary-preferred options. Without knowing the plan's specific policy and whether Ajovy was tried, I cannot confidently predict the outcome."
+  },
+  "verification_items": [
+    "Verify whether Ajovy has been tried and, if so, obtain documentation of that trial.",
+    "Obtain and review the plan's formulary policy and medical necessity criteria for CGRP inhibitors, particularly any step-therapy requirements.",
+    "Verify the specific clinical outcomes (migraine frequency, severity, functional status) on Vyepti compared to prior therapies.",
+    "Verify whether needle aversion has been clinically documented or diagnosed beyond self-report.",
+    "Verify the exact durations and dosing of Aimovig and Emgality trials to confirm they meet the plan's definition of adequate trial.",
+    "Verify the appeal deadline and procedural requirements from the original denial letter.",
+    "Confirm with the treating neurologist the medical rationale for Vyepti over self-administered alternatives.",
+    "Verify whether there are any FDA-approved distinctions or clinical evidence differentiating Vyepti's efficacy or mechanism from other CGRP inhibitors for this patient's presentation."
+  ],
+  "citations": [
+    {"claim_ref": "Patient has chronic migraine under active neurologic management", "cite": "F001"},
+    {"claim_ref": "Current preventive regimen includes nerve blocks every 6 weeks, zonisamide, gabapentin, magnesium, and Vyepti infusions", "cite": "F002"},
+    {"claim_ref": "Concurrent medications include duloxetine, levothyroxine, Nexplanon, spironolactone, and PRN hydroxyzine", "cite": "F003"},
+    {"claim_ref": "Failed amitriptyline, propranolol, atenolol, Aimovig (>3 months), and Emgality (4 months)", "cite": "F004"},
+    {"claim_ref": "Patient self-reports an aversion to needles/injections", "cite": "F005"},
+    {"claim_ref": "Tried Aimovig over 3 months and Emgality for 4 months without benefit", "cite": "F004"},
+    {"claim_ref": "Current regimen includes Vyepti infusions", "cite": "F002"},
+    {"claim_ref": "Whether a formal trial of Ajovy has been attempted is unknown", "cite": "UNKNOWN"},
+    {"claim_ref": "Plan offers Ajovy as preferred preventive therapy; whether step-therapy is required is unknown", "cite": "INFERENCE"},
+    {"claim_ref": "Whether needle aversion has a documented clinical basis beyond self-report is unknown", "cite": "UNKNOWN"},
+    {"claim_ref": "Insurer offers Ajovy, another CGRP agent, as alternative", "cite": "INFERENCE"},
+    {"claim_ref": "Case is NY DFS External Appeal 202202-146311", "cite": "case_id and source fields"}
+  ],
+  "explicit_unknowns": [
+    "Whether Ajovy specifically has been tried",
+    "The plan's written step-therapy or medical necessity policy for CGRP inhibitors",
+    "Whether Vyepti has produced documented clinical improvement",
+    "Whether needle aversion has a clinical diagnosis or documented medical basis",
+    "Exact dosing and adherence details for Aimovig and Emgality trials",
+    "Appeal deadline and procedural timeline",
+    "Whether there are medical contraindications to self-injection beyond reported aversion",
+    "The plan's specific definition of 'adequate trial' or 'failure' for CGRP agents",
+    "The insurer's identity and specific plan type"
+  ],
+  "safety_escalation_flags": []
+}
+```

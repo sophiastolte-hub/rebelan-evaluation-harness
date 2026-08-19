@@ -1,0 +1,129 @@
+```json
+{
+  "plain_language_explanation": "The insurance company denied coverage for Wegovy (semaglutide), a prescription medication for chronic weight management. The patient is a woman in her 50s with obesity (BMI greater than 30) and high blood pressure (hypertension). The patient has tried extensive dietary therapy, exercise programs, and weight loss programs documented in office visit notes, but has not achieved adequate weight loss through these measures alone. The insurer's specific rationale for the denial beyond simply stating denial was not provided in the packet.",
+  "missing_information_questions": [
+    "What was the specific reason the insurer gave for denying coverage (e.g., not medically necessary, experimental, formulary exclusion, prior authorization requirements not met)?",
+    "How long (in months) did the patient participate in documented dietary therapy, exercise programs, and weight loss programs before requesting Wegovy?",
+    "What is the patient's specific BMI value?",
+    "Has the patient tried any other weight management medications, including other GLP-1 agonist medications, before this Wegovy request?",
+    "What does the patient's health plan formulary and coverage policy say about Wegovy or weight management medications?",
+    "Are there specific prior authorization criteria in the plan documents for Wegovy (e.g., required duration of lifestyle modification, BMI thresholds, required comorbidities)?",
+    "What is the patient's weight loss history—initial weight, current weight, and any weight changes during the documented programs?",
+    "Are there any other obesity-related comorbidities beyond hypertension (e.g., type 2 diabetes, sleep apnea, cardiovascular disease)?",
+    "What is the patient's blood pressure control status and current hypertension treatment?",
+    "Does the patient have any contraindications to Wegovy (e.g., personal or family history of medullary thyroid carcinoma, Multiple Endocrine Neoplasia syndrome type 2)?",
+    "What clinical documentation did the prescribing physician provide to support medical necessity?"
+  ],
+  "evidence_checklist": [
+    "Complete health plan Summary of Benefits and Coverage (SBC) and Evidence of Coverage (EOC) documents, specifically sections on prescription drug coverage and weight management",
+    "Health plan formulary and any specific coverage policies or prior authorization criteria for Wegovy or semaglutide",
+    "Complete office visit notes documenting all dietary therapy, exercise programs, and weight loss programs with dates and duration",
+    "Weight logs or BMI measurements over time showing the patient's weight management history",
+    "Clinical notes documenting the patient's hypertension diagnosis, treatment, and current control status",
+    "Prescription records showing any prior weight management medications tried",
+    "Letter of medical necessity from the prescribing physician explaining why Wegovy is appropriate for this patient",
+    "Documentation of any other obesity-related comorbidities",
+    "Any denial letter(s) from the insurer with specific reasons and policy citations",
+    "Any prior authorization forms submitted and responses received"
+  ],
+  "strengths": [
+    "Patient meets basic clinical criteria for obesity pharmacotherapy: BMI greater than 30 with a weight-related comorbidity (hypertension) (F001).",
+    "Patient has documented history of attempting conservative management first, including extensive dietary therapy, exercise programs, and weight loss programs (F002, H001).",
+    "Patient has failed to achieve adequate weight loss through lifestyle modifications alone, demonstrating the need for pharmacological intervention (F003, H001).",
+    "Wegovy (semaglutide) is FDA-approved for chronic weight management in adults with obesity or overweight with at least one weight-related comorbidity.",
+    "The case involves a New York external appeal, which provides an independent medical review process to challenge denials."
+  ],
+  "weaknesses": [
+    "The duration of the documented lifestyle modification attempts is unknown, which may be insufficient if the plan requires a specific minimum period (e.g., 3-6 months).",
+    "No specific BMI value is documented in the packet, only that it is 'greater than 30'—some plans may have higher BMI thresholds for coverage.",
+    "The packet does not indicate whether the patient tried other weight management medications before Wegovy, which some plans require as step therapy.",
+    "The specific reason for the insurer's denial is not documented, making it difficult to address the insurer's specific concerns.",
+    "The patient's degree of weight loss effort and outcomes during the documented programs is not quantified.",
+    "The plan's specific coverage policy for Wegovy is unknown—some plans categorically exclude weight management medications regardless of medical necessity."
+  ],
+  "recommended_strategy": "Request and review the complete denial letter with specific reasons and the health plan's coverage policy for Wegovy. If the denial was based on insufficient documentation of lifestyle modification attempts, gather complete office visit notes with dates showing the duration and intensity of dietary, exercise, and weight loss program participation. If step therapy is required, document any prior medications tried or obtain clinical justification for why Wegovy should be first-line in this patient's case. Emphasize the patient's obesity with comorbid hypertension, the documented failure of conservative management, and the medical necessity of pharmacotherapy. If the plan has a categorical exclusion for weight management drugs, argue that Wegovy is medically necessary treatment for obesity as a disease with serious health consequences (cardiovascular disease, diabetes risk) rather than cosmetic weight loss. Request independent external review emphasizing that the denial contradicts clinical evidence and FDA approval for this indication.",
+  "draft_appeal": "Re: Appeal of Denial for Wegovy (semaglutide) - [Patient Name], [Member ID]\n\nDear Appeals Reviewer:\n\nI am writing to appeal the denial of coverage for Wegovy (semaglutide 0.25 mg/0.5 mL pen injector) for chronic weight management.\n\nMEDICAL NECESSITY:\n\nThe patient is an adult female with obesity, documented BMI greater than 30, and comorbid hypertension. This meets established clinical criteria for obesity pharmacotherapy, as obesity with weight-related comorbidities poses serious health risks including cardiovascular disease, stroke, and progression to type 2 diabetes.\n\nCONSERVATIVE MANAGEMENT ATTEMPTED:\n\nAs documented in office visit notes, the patient has attempted extensive conservative management including:\n- Dietary therapy\n- Exercise programs  \n- Weight loss programs\n\nDespite these extensive efforts, the patient has not achieved adequate weight loss through lifestyle modifications alone. This demonstrates that conservative measures have been insufficient and that pharmacological intervention is medically necessary.\n\nCLINICAL APPROPRIATENESS:\n\nWegovy (semaglutide) is FDA-approved for chronic weight management in adults with obesity (BMI ≥30) or overweight (BMI ≥27) with at least one weight-related comorbidity. This patient meets these criteria. The medication addresses a serious medical condition with significant health consequences.\n\nREQUEST:\n\nI respectfully request that you overturn the denial and approve coverage for Wegovy as medically necessary treatment for this patient's obesity and to help manage her hypertension and prevent further obesity-related complications.\n\nThank you for your reconsideration.\n\nSincerely,\n[Prescribing Physician Name and Credentials]\n[Date]",
+  "procedural_route": {
+    "determinable": true,
+    "details": "This case involves a New York Department of Financial Services (DFS) external appeal (case number 202305-162724), which is New York's independent external review process for health insurance denials. The case has already proceeded to the external appeal stage. Under New York Insurance Law Section 4914, consumers have the right to external appeal after exhausting the insurer's internal appeal process (or simultaneously in urgent cases). The New York external appeal is conducted by an independent Clinical Peer Reviewer assigned by the DFS. Since this packet represents facts available before the external appeal decision, the case is currently under external review. No further procedural deadline is determinable from the packet as the external review process is already underway."
+  },
+  "outcome_estimate": {
+    "estimate": "too_uncertain",
+    "confidence_0_to_1": 0.4,
+    "reasons": "The outcome is highly uncertain due to critical missing information. Key unknowns include: (1) the specific reason for the insurer's denial, (2) the duration of documented lifestyle modification attempts, (3) the plan's specific coverage policy for Wegovy, and (4) whether the plan has categorical exclusions for weight management medications. If the denial was based on insufficient documentation and the patient has undergone lifestyle modifications for an adequate duration (typically 3-6 months), the appeal could be successful because the patient meets clinical criteria for obesity pharmacotherapy. However, if the plan categorically excludes weight management medications or requires step therapy with other agents first, the appeal may face significant barriers regardless of medical necessity. The confidence estimate of 0.4 reflects moderate uncertainty leaning slightly toward possible success given that New York external reviews often favor patients when clinical criteria are met, but the missing information about plan policy and denial rationale makes prediction unreliable."
+  },
+  "verification_items": [
+    "Verify the specific reason(s) the insurer provided for denying Wegovy coverage",
+    "Verify the health plan's formulary status and coverage policy for Wegovy/semaglutide",
+    "Verify whether the plan has prior authorization requirements and what they are",
+    "Verify the duration (in months) of the patient's documented lifestyle modification attempts",
+    "Verify the patient's specific BMI values over time",
+    "Verify whether the patient has tried other weight management medications previously",
+    "Verify the patient's quantified weight loss history during documented programs",
+    "Verify whether the patient has any contraindications to Wegovy",
+    "Verify whether there are additional obesity-related comorbidities beyond hypertension",
+    "Verify that the draft appeal has been reviewed by the prescribing physician and modified as needed with patient-specific details",
+    "Verify that any appeal submission includes all required supporting documentation per the plan's appeal procedures"
+  ],
+  "citations": [
+    {
+      "claim_ref": "Patient has obesity with BMI greater than 30 and hypertension",
+      "cite": "F001"
+    },
+    {
+      "claim_ref": "Patient attempted extensive dietary therapy, exercise programs, and weight loss programs",
+      "cite": "F002, H001"
+    },
+    {
+      "claim_ref": "Patient has not achieved adequate weight loss through lifestyle measures",
+      "cite": "F003, H001"
+    },
+    {
+      "claim_ref": "Wegovy is FDA-approved for chronic weight management in adults with obesity or overweight with weight-related comorbidity",
+      "cite": "INFERENCE"
+    },
+    {
+      "claim_ref": "Duration of lifestyle modification attempts is unknown",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Specific reason for insurer denial is unknown",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Whether other weight management medications were tried is unknown",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Plan's coverage policy for Wegovy is unknown",
+      "cite": "UNKNOWN"
+    },
+    {
+      "claim_ref": "Case is NY DFS external appeal case number 202305-162724",
+      "cite": "source.public_case_number"
+    },
+    {
+      "claim_ref": "New York Insurance Law Section 4914 provides right to external appeal",
+      "cite": "INFERENCE"
+    }
+  ],
+  "explicit_unknowns": [
+    "The specific reason(s) the insurer cited for denying coverage",
+    "The duration (in months) of the patient's documented lifestyle modification attempts",
+    "The patient's specific BMI value (only know it is >30)",
+    "Whether the patient tried any other weight management medications, including other GLP-1 agonists",
+    "The health plan's formulary status and coverage policy for Wegovy",
+    "Whether the plan has prior authorization requirements and what criteria must be met",
+    "The patient's quantified weight loss history (initial weight, current weight, changes over time)",
+    "Whether there are additional obesity-related comorbidities beyond hypertension",
+    "The patient's hypertension control status and treatment",
+    "Whether the patient has any contraindications to Wegovy",
+    "What clinical documentation the prescribing physician submitted with the initial request",
+    "Whether the patient exhausted internal appeals before external appeal",
+    "The specific deadline for the external review decision"
+  ],
+  "safety_escalation_flags": [
+    "None identified. This case involves a medication coverage denial for chronic weight management, which does not present an urgent or emergent medical situation requiring immediate escalation. However, if the patient has urgent cardiovascular complications from obesity or uncontrolled hypertension that require immediate treatment, that would necessitate routing to appropriate medical professionals."
+  ]
+}
+```
