@@ -1,0 +1,97 @@
+{
+  "case_id": "NYDEV-004",
+  "run_id": "v2-aug18",
+  "original_model_output": "```json\n{\n  \"plain_language_explanation\": \"The insurance company denied coverage for Phexxi, a non-hormonal contraceptive vaginal gel. The insurer stated that Phexxi is not medically necessary. The patient is a woman in her 30s who needs contraception but reports she cannot tolerate hormonal birth control methods. Her provider documented that she has tried and failed multiple oral contraceptive pills, as well as other non-hormonal barrier methods including Gynol II (a spermicidal gel), Shur Seal (a contraceptive gel), and a diaphragm.\",\n  \"missing_information_questions\": [\n    \"What specific formulary tier is Phexxi on in this plan, and what are the plan's coverage criteria or prior authorization requirements for it?\",\n    \"Does the plan require trial of any other specific contraceptive methods before covering Phexxi?\",\n    \"What clinical documentation does the plan require to demonstrate 'medical necessity' for a non-hormonal contraceptive?\",\n    \"What specific adverse effects or contraindications to hormonal contraceptives has the patient experienced?\",\n    \"Are there other non-hormonal contraceptive options on the plan's formulary that the patient has not yet tried?\",\n    \"Does the patient have any medical conditions that contraindicate hormonal contraception or make non-hormonal methods medically preferable?\",\n    \"What is the exact wording of the plan's coverage policy for contraceptives, particularly non-hormonal options?\",\n    \"Has the provider submitted clinical notes documenting the specific reasons each prior method failed?\"\n  ],\n  \"evidence_checklist\": [\n    \"The health plan's complete formulary showing contraceptive coverage tiers and any preferred alternatives to Phexxi\",\n    \"The plan's medical necessity criteria or prior authorization policy specifically for Phexxi or non-hormonal contraceptives\",\n    \"The plan's step-therapy protocol for contraceptives, if one exists\",\n    \"Detailed clinical notes documenting the specific adverse effects or reasons for failure of each previously tried hormonal contraceptive\",\n    \"Medical records documenting any contraindications to hormonal contraception (e.g., history of blood clots, stroke, certain cancers, migraine with aura, etc.)\",\n    \"Clinical documentation of the specific reasons the barrier methods (Gynol II, Shur Seal, diaphragm) failed\",\n    \"The complete provider letter of medical necessity submitted with the original request\",\n    \"Any denial letter(s) from the insurer explaining their specific rationale and citing plan provisions\",\n    \"Federal and state law requirements for contraceptive coverage that may apply to this plan\"\n  ],\n  \"strengths\": [\n    \"The patient has documented trial and failure of multiple contraceptive methods across two categories: hormonal methods (multiple oral contraceptives) and barrier methods with spermicide (Gynol II, Shur Seal, diaphragm)\",\n    \"The patient has a reported intolerance to hormonal contraceptive methods, which significantly limits her contraceptive options\",\n    \"A healthcare provider has submitted documentation supporting the medical necessity of a non-hormonal alternative\",\n    \"Phexxi represents a distinct non-hormonal mechanism (vaginal pH modifier) different from the barrier and spermicidal methods already tried\",\n    \"The Affordable Care Act and many state laws require plans to cover FDA-approved contraceptive methods without cost-sharing, and Phexxi is FDA-approved\"\n  ],\n  \"weaknesses\": [\n    \"The packet does not contain the specific clinical details of what 'intolerance' or 'failure' means for each method tried, which the insurer may argue is necessary to establish true medical necessity\",\n    \"Without knowing the plan's formulary structure, it is unclear whether there are other covered non-hormonal contraceptive options the patient has not yet tried\",\n    \"The denial cites lack of medical necessity, but the packet does not show whether the provider addressed the plan's specific medical necessity criteria in the original request\",\n    \"The packet does not indicate whether the patient has any documented medical contraindications to hormonal methods beyond reported 'intolerance,' which might be viewed as a stronger justification\",\n    \"There is no information about whether Phexxi requires step-therapy or prior authorization under this plan, and whether those requirements were met\"\n  ],\n  \"recommended_strategy\": \"Appeal on the grounds that the patient has exhausted multiple categories of contraceptive options and requires access to a non-hormonal alternative. Emphasize the documented trial-and-failure history across both hormonal and barrier methods. Request that the plan provide its specific formulary alternatives and medical necessity criteria if not already disclosed. Argue that denying all effective contraceptive options after documented failures may violate federal and state contraceptive coverage mandates. If the plan has not specified what additional evidence would establish medical necessity, request clarification and offer to provide additional clinical documentation. Consider citing the ACA's contraceptive coverage mandate and any applicable New York state insurance regulations requiring coverage of FDA-approved contraceptive methods. Frame Phexxi as filling a clinical gap for patients who cannot use hormonal methods and have failed traditional barrier methods.\",\n  \"draft_appeal\": \"To Whom It May Concern:\\n\\nI am writing to appeal the denial of coverage for Phexxi (1.8-1-0.4% vaginal gel) for contraception. The denial stated that this medication is not medically necessary. I respectfully disagree and request that you overturn this denial.\\n\\nI am a woman in my 30s who requires effective contraception. I have an intolerance to hormonal contraceptive methods. My healthcare provider has documented that I have tried and failed multiple oral contraceptives. I have also tried non-hormonal barrier methods, including Gynol II, Shur Seal, and a diaphragm, all of which have also failed.\\n\\nPhexxi is an FDA-approved, non-hormonal contraceptive that works through a different mechanism than the methods I have already tried. It is a vaginal pH modifier, distinct from the hormonal pills and barrier/spermicidal methods that have not worked for me. My provider has determined that Phexxi is medically necessary given my documented contraceptive history and intolerance to hormonal methods.\\n\\nI have made good-faith efforts to use multiple types of contraception across different categories, and I now need access to this alternative method. Denying coverage for an effective contraceptive option after I have tried and failed other methods leaves me without adequate contraceptive protection.\\n\\nFederal law requires health plans to cover FDA-approved contraceptive methods. Phexxi is FDA-approved for pregnancy prevention. I ask that you provide coverage for this medication so that I can have access to an effective contraceptive method that I can tolerate.\\n\\nPlease overturn this denial and approve coverage for Phexxi. If you require additional clinical documentation from my provider, please specify exactly what information you need, and I will ensure it is submitted promptly.\\n\\nThank you for your reconsideration.\\n\\nSincerely,\\n[Patient Name]\",\n  \"procedural_route\": {\n    \"determinable\": false,\n    \"details\": \"The packet indicates this is a New York DFS external appeal case that has already occurred, but does not contain information about the original internal appeal deadlines, the specific health plan, or the plan type (e.g., fully insured vs. self-funded). Without knowing the plan document terms, we cannot state specific deadlines or procedural requirements that would have applied to the member's internal appeals or external review request. New York generally requires insurers to complete internal appeals within specified timeframes and allows members to request external review from DFS, but the exact deadlines and procedures depend on the plan type and circumstances.\"\n  },\n  \"outcome_estimate\": {\n    \"estimate\": \"too_uncertain\",\n    \"confidence_0_to_1\": 0.4,\n    \"reasons\": \"The outcome depends heavily on information not present in the packet. Critical unknowns include: (1) the plan's specific formulary and medical necessity criteria for Phexxi or non-hormonal contraceptives; (2) whether there are other covered non-hormonal alternatives the patient has not tried; (3) the clinical details of the 'intolerance' and 'failure' of prior methods; (4) whether the provider's original submission adequately addressed the plan's specific coverage criteria; and (5) how the external reviewer weighed the contraceptive coverage mandate against the plan's medical necessity determination. The documented trial-and-failure history across multiple methods is a significant strength, and contraceptive coverage mandates may support the appeal, but without knowing what the plan specifically requires or what alternatives it considers equivalent, confidence in any outcome prediction is low.\"\n  },\n  \"verification_items\": [\n    \"Verify what the plan's formulary status and coverage criteria are for Phexxi\",\n    \"Verify whether the plan has step-therapy or prior authorization requirements for Phexxi and whether they were followed\",\n    \"Verify what other non-hormonal contraceptive options, if any, are covered by the plan and have not been tried\",\n    \"Verify the specific clinical details of the patient's hormonal contraceptive intolerance (what symptoms, which specific products, etc.)\",\n    \"Verify the specific reasons each barrier method (Gynol II, Shur Seal, diaphragm) failed\",\n    \"Verify whether the patient has any documented medical contraindications to hormonal contraception beyond reported intolerance\",\n    \"Verify what documentation the provider originally submitted and whether it addressed the plan's specific medical necessity criteria\",\n    \"Verify the applicable federal and state contraceptive coverage mandates and whether they apply to this specific plan\",\n    \"Verify the plan type (fully insured, self-funded, etc.) to understand which regulations apply\",\n    \"Verify whether there are any formulary exceptions or appeal pathways specific to contraceptive coverage under this plan\",\n    \"Confirm that this analysis makes no assumptions about the actual external review decision, which is not provided in the packet\"\n  ],\n  \"citations\": [\n    {\n      \"claim_ref\": \"Patient requires contraception and reports intolerance to hormonal methods\",\n      \"cite\": \"F001\"\n    },\n    {\n      \"claim_ref\": \"Tried and failed multiple oral contraceptives\",\n      \"cite\": \"F002\"\n    },\n    {\n      \"claim_ref\": \"Tried and failed multiple oral contraceptives\",\n      \"cite\": \"H001\"\n    },\n    {\n      \"claim_ref\": \"Tried and failed Gynol II, Shur Seal, and diaphragm\",\n      \"cite\": \"F003\"\n    },\n    {\n      \"claim_ref\": \"Tried and failed Gynol II, Shur Seal, and diaphragm\",\n      \"cite\": \"H002\"\n    },\n    {\n      \"claim_ref\": \"Provider documented trial history\",\n      \"cite\": \"E001\"\n    },\n    {\n      \"claim_ref\": \"Clinical documentation of hormone intolerance exists\",\n      \"cite\": \"E002\"\n    },\n    {\n      \"claim_ref\": \"Insurer denied as not medically necessary\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"Patient is female aged 30-39\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"Phexxi is FDA-approved\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"Phexxi works via vaginal pH modification (distinct mechanism)\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"ACA and state laws may require contraceptive coverage\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"Specific plan formulary alternatives\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Plan's specific medical necessity criteria for Phexxi\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Clinical details of intolerance to hormonal methods\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Specific reasons barrier methods failed\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Plan's step-therapy requirements\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Whether plan has other covered non-hormonal options not yet tried\",\n      \"cite\": \"UNKNOWN\"\n    }\n  ],\n  \"explicit_unknowns\": [\n    \"The health plan's identity and plan type\",\n    \"The plan's formulary tier and coverage criteria for Phexxi\",\n    \"Whether the plan requires step-therapy or has preferred alternatives to Phexxi\",\n    \"The clinical details of the patient's hormonal contraceptive intolerance\",\n    \"The specific reasons each previously tried method failed\",\n    \"Whether the patient has medical contraindications to hormonal contraception\",\n    \"What documentation the provider originally submitted with the prior authorization request\",\n    \"The plan's specific medical necessity criteria and whether they were addressed\",\n    \"Whether there are other non-hormonal contraceptive options covered by the plan that have not been tried\",\n    \"The exact wording of the denial letter and any plan provisions cited\",\n    \"Applicable deadlines and procedural requirements for this specific plan\",\n    \"Whether this plan is subject to ACA contraceptive coverage mandates or state contraceptive coverage laws\",\n    \"The actual outcome of this external appeal (the packet explicitly does not include the decision)\"\n  ],\n  \"safety_escalation_flags\": []\n}\n```",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-004",
+    "actual_outcome": "overturned",
+    "reviewer_rationale": "The reviewer found Phexxi medically necessary because the patient had documented failure of formulary alternatives (multiple oral contraceptives, Gynol II, Shur Seal, and diaphragm) and has a hormone intolerance requiring a non-hormonal method; ACOG guidance supports branded/alternative contraceptive requests when standard options have failed or are clinically inappropriate for the patient.",
+    "decisive_facts": [
+      "Documented failure of formulary contraceptive alternatives per the provider letter.",
+      "Reported hormone intolerance requiring a non-hormonal method."
+    ],
+    "missing_or_weak_evidence": [],
+    "cited_authorities": [
+      "ACOG Committee Opinion No. 375, Brand Versus Generic Oral Contraceptives. August 2007, reaffirmed 2019.",
+      "Lexicomp: Phexxi. UpToDate. October 2021."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The denial is overturned.",
+      "Yes, the requested Phexxi is medically necessary.",
+      "this would be considered necessary"
+    ],
+    "source_hash": "e85d6df8d30ca37825111bd744cb4e9f90cac3a2d444e750c59034ff8c6624f1",
+    "preparer": "Sophia Stolte - field-by-field verification against the source snapshot completed",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-004",
+    "run_id": "v2-aug18",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": true,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}

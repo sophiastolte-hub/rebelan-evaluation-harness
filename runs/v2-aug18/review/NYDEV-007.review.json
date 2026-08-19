@@ -1,0 +1,100 @@
+{
+  "case_id": "NYDEV-007",
+  "run_id": "v2-aug18",
+  "original_model_output": "```json\n{\n  \"plain_language_explanation\": \"The insurance company denied coverage for Wegovy (semaglutide 2.4 mg), a medication for chronic weight management. The patient is a woman in her 30s with obesity, having a starting BMI of 41.48. The insurer's reason for denial was that the submitted medical records did not show enrollment in a 'qualified comprehensive weight management program' for at least 3 months with physician-office counseling. The patient has tried behavioral changes, dietary restriction, used a weight loss app, has a gym membership, was referred to a weight loss clinic, and previously tried Ozempic without success. While taking Wegovy samples, her BMI decreased to 37.88, showing clinical response to the medication.\",\n  \"missing_information_questions\": [\n    \"What are the plan's specific written criteria and definition for a 'qualified comprehensive weight management program'?\",\n    \"Did the patient actually enroll in and attend the weight loss clinic after the referral, and if so, for how long?\",\n    \"Does the weight loss clinic program include physician-office counseling sessions, and are there visit records documenting at least 3 months of participation?\",\n    \"What documentation exists of the behavioral modification and dietary restriction efforts over the 3-month period (e.g., diet logs, counseling notes, visit records)?\",\n    \"Does the plan's policy require a formal structured program, or can documented physician-supervised weight management efforts over 3+ months satisfy the requirement?\",\n    \"Are there any written communications from the insurer explaining exactly what documentation would satisfy their '3-month qualified program' requirement?\",\n    \"What is the exact policy language in the plan documents regarding prior authorization requirements for Wegovy or similar GLP-1 agonists for weight management?\"\n  ],\n  \"evidence_checklist\": [\n    \"The complete health insurance policy or certificate of coverage showing the exact prior authorization criteria for Wegovy or weight management medications\",\n    \"All medical records from the weight loss clinic (if the patient enrolled following the referral), including intake notes, counseling session notes, and attendance records\",\n    \"Documentation from the prescribing physician showing all weight management counseling sessions, visits, and guidance provided over the past 3+ months\",\n    \"Records from any dietitian, nutritionist, or behavioral health provider involved in weight management efforts\",\n    \"Logs or records from the weight loss app showing 3+ months of consistent tracking and engagement\",\n    \"Pharmacy records confirming the Ozempic trial, dosing, duration, and documented failure\",\n    \"Any correspondence from the insurer defining what would constitute acceptable documentation of a 'qualified comprehensive weight management program'\",\n    \"Medical records documenting BMI measurements over time and the clinical response to Wegovy samples\"\n  ],\n  \"strengths\": [\n    \"Patient has severe obesity with documented baseline BMI of 41.48, meeting typical medical necessity thresholds for weight management medication\",\n    \"Patient already demonstrated clinical response to Wegovy during sample use, with BMI decreasing from 41.48 to 37.88\",\n    \"Patient previously tried and failed Ozempic, showing an alternative GLP-1 medication was inadequate\",\n    \"Patient engaged in behavioral modification and dietary restriction for at least 3 months without achieving desired weight loss, demonstrating lifestyle interventions alone were insufficient\",\n    \"Patient is actively engaged in multiple weight management modalities including app-based tracking, gym membership, and was referred to a specialized weight loss clinic\"\n  ],\n  \"weaknesses\": [\n    \"The critical missing element is documentation proving enrollment in a formal 'qualified comprehensive weight management program' with physician-office counseling for at least 3 months, which is specifically what the insurer required\",\n    \"A referral to a weight loss clinic does not, by itself, prove the patient enrolled, attended, or completed a 3-month program at that clinic\",\n    \"Self-directed efforts like using a weight loss app and having a gym membership may not meet the insurer's definition of a 'qualified comprehensive' program with physician counseling\",\n    \"The packet does not contain records from the weight loss clinic documenting actual participation in a structured program\"\n  ],\n  \"recommended_strategy\": \"The appeal should focus on demonstrating that the patient did meet the 3-month weight management program requirement, either by: (1) obtaining and submitting complete records from the weight loss clinic if she enrolled and participated, showing physician-supervised counseling over 3+ months; or (2) arguing that the physician-supervised behavioral modification, dietary restriction, and documented lifestyle interventions over 3+ months constitute a qualifying program under the plan's actual written criteria. Request the insurer provide the exact plan language defining 'qualified comprehensive weight management program' and argue that the submitted evidence meets that definition when properly documented. Emphasize the demonstrated medical necessity (severe obesity, BMI >40), failure of alternative treatments (Ozempic, lifestyle modifications alone), and proven clinical benefit from Wegovy (significant BMI reduction). If the clinic records exist but were not initially submitted, this is primarily a documentation issue rather than a substantive medical necessity denial. The appeal should also request clarification of what specific additional documentation would satisfy the requirement if the insurer believes the current evidence is insufficient.\",\n  \"draft_appeal\": \"Dear Appeals Department:\\n\\nI am writing to appeal the denial of coverage for Wegovy (semaglutide 2.4 mg/0.75 mL pen injector) for chronic weight management. The denial stated that submitted records did not establish enrollment in a qualified comprehensive weight management program for at least 3 months with physician-office counseling.\\n\\nI meet the medical necessity criteria for this medication. I have severe obesity with a baseline BMI of 41.48. I have engaged in behavioral modification and dietary restriction for at least 3 months without achieving desired weight loss. I have been using a weight loss tracking app, maintain a gym membership, and was referred to a weight loss clinic for comprehensive management. I previously tried Ozempic, another medication in the same class, which failed to provide adequate benefit.\\n\\nWhile taking Wegovy samples provided by my physician, my BMI decreased from 41.48 to 37.88, demonstrating clear clinical effectiveness of this medication for my condition.\\n\\nI respectfully request that you:\\n1. Provide the specific plan language defining 'qualified comprehensive weight management program' so I can ensure all required documentation is submitted;\\n2. Clarify exactly what documentation would satisfy this requirement;\\n3. Reconsider the denial based on my documented 3+ months of physician-supervised weight management efforts including behavioral modification, dietary restriction, and multi-modal lifestyle interventions;\\n4. If additional documentation from my weight loss clinic or physician is needed, please specify exactly what records are required and allow me the opportunity to obtain and submit them.\\n\\nI have demonstrated medical necessity through severe obesity, failure of lifestyle modifications alone, failure of an alternative medication (Ozempic), and proven response to Wegovy. I am committed to comprehensive weight management under physician supervision. I request approval of Wegovy as a medically necessary component of my ongoing treatment plan.\\n\\nThank you for reconsidering this decision.\\n\\nSincerely,\\n[Patient Name]\",\n  \"procedural_route\": {\n    \"determinable\": true,\n    \"details\": \"This case involves a New York Department of Financial Services external appeal (case number 202305-163087), indicating the patient has already exhausted the insurer's internal appeal process and proceeded to external review under New York Insurance Law Section 4914. The external review process in New York is conducted by an independent review organization. Since this packet represents the pre-decision state, the procedural route would have been: (1) initial denial, (2) internal appeal with the insurer, (3) external appeal to NY DFS. For future similar denials, the patient would have 4 months from receipt of an adverse determination to file an external appeal. However, the packet does not contain the specific plan documents that would detail internal appeal timeframes.\"\n  },\n  \"outcome_estimate\": {\n    \"estimate\": \"too_uncertain\",\n    \"confidence_0_to_1\": 0.4,\n    \"reasons\": \"The outcome hinges entirely on documentation not present in this packet. If the patient did enroll and complete a 3-month physician-supervised program at the weight loss clinic and those records can be submitted, the appeal would likely succeed given the clear medical necessity, prior treatment failures, and demonstrated effectiveness. However, if no such formal program participation exists and the insurer's policy strictly requires a structured program (not just physician-supervised lifestyle counseling), the appeal would likely fail regardless of medical necessity. The packet shows strong clinical justification for the medication but a critical documentation gap on the specific criterion the insurer cited. Without knowing (1) the plan's exact definition of 'qualified program,' and (2) what actually happened after the clinic referral, the outcome cannot be reliably predicted.\"\n  },\n  \"verification_items\": [\n    \"Whether the patient actually enrolled in and attended the weight loss clinic after receiving the referral\",\n    \"The specific duration and nature of any weight loss clinic program participation\",\n    \"The plan's exact written definition and criteria for 'qualified comprehensive weight management program'\",\n    \"Whether physician-supervised behavioral counseling and dietary management over 3+ months can satisfy the program requirement under this plan's specific language\",\n    \"The exact timeframe of the 3-month behavioral modification and dietary restriction period and what clinical documentation exists\",\n    \"Whether the Ozempic trial duration and dosing were adequate to constitute a true failure\",\n    \"The clinical appropriateness of Wegovy given the patient's specific medical history beyond what is stated in the packet\"\n  ],\n  \"citations\": [\n    {\n      \"claim_ref\": \"Patient has obesity with baseline BMI 41.48\",\n      \"cite\": \"F001\"\n    },\n    {\n      \"claim_ref\": \"Current BMI is 37.88 after taking Wegovy samples\",\n      \"cite\": \"F002\"\n    },\n    {\n      \"claim_ref\": \"Patient previously tried and failed Ozempic\",\n      \"cite\": \"F003\"\n    },\n    {\n      \"claim_ref\": \"Patient engaged in behavioral modification and dietary restriction for at least 3 months without achieving desired weight loss\",\n      \"cite\": \"F004\"\n    },\n    {\n      \"claim_ref\": \"Patient uses weight loss app, has gym membership, and was referred to weight loss clinic\",\n      \"cite\": \"F005\"\n    },\n    {\n      \"claim_ref\": \"Ozempic trial occurred prior to appeal\",\n      \"cite\": \"H001\"\n    },\n    {\n      \"claim_ref\": \"Behavioral modification and dietary restriction trial lasted at least 3 months before appeal\",\n      \"cite\": \"H002\"\n    },\n    {\n      \"claim_ref\": \"Weight loss app use, clinic referral, and gym membership are ongoing\",\n      \"cite\": \"H003\"\n    },\n    {\n      \"claim_ref\": \"BMI decreased from 41.48 to 37.88 during Wegovy sample period\",\n      \"cite\": \"H004\"\n    },\n    {\n      \"claim_ref\": \"Insurer denied based on lack of documentation of 3-month qualified comprehensive weight management program with physician-office counseling\",\n      \"cite\": \"INFERENCE\"\n    },\n    {\n      \"claim_ref\": \"Plan's specific definition of 'qualified comprehensive weight management program' is unknown\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"Whether patient enrolled in weight loss clinic after referral is unknown\",\n      \"cite\": \"UNKNOWN\"\n    },\n    {\n      \"claim_ref\": \"New York external appeal procedures under Insurance Law Section 4914\",\n      \"cite\": \"INFERENCE\"\n    }\n  ],\n  \"explicit_unknowns\": [\n    \"The health plan's specific policy language and written criteria defining 'qualified comprehensive weight management program'\",\n    \"Whether the patient actually enrolled in the weight loss clinic after the referral\",\n    \"If enrolled, the duration and nature of participation in the weight loss clinic program\",\n    \"Whether the weight loss clinic program includes physician-office counseling sessions meeting the insurer's requirements\",\n    \"The specific format and content of documentation that would satisfy the insurer's 3-month program requirement\",\n    \"Details of the physician counseling and supervision during the 3-month behavioral modification period\",\n    \"The exact dosing and duration of the Ozempic trial\",\n    \"Any comorbid conditions that might affect medical necessity determination\",\n    \"The plan's specific prior authorization requirements and any step therapy protocols for Wegovy\",\n    \"Internal appeal history and what additional documentation, if any, was submitted during internal review\"\n  ],\n  \"safety_escalation_flags\": [\n    \"None identified. This is a coverage dispute regarding a weight management medication, not an emergent medical situation. However, if the patient has any obesity-related comorbidities (cardiovascular disease, diabetes, etc.) that are not documented in this packet, a licensed healthcare provider should evaluate whether delay in treatment poses clinical risks.\"\n  ]\n}\n```",
+  "hidden_answer_key": {
+    "case_id": "NYDEV-007",
+    "actual_outcome": "upheld",
+    "reviewer_rationale": "The reviewer found Wegovy not medically necessary because the submitted information did not establish that the patient was currently enrolled in a qualified comprehensive weight management program (with required physician-office counseling) for at least 3 months; a weight-loss app alone does not satisfy that requirement, even though behavioral modification, a gym membership, and a clinic referral were documented.",
+    "decisive_facts": [
+      "No documentation of enrollment in a qualifying comprehensive weight management program with physician-office counseling for >=3 months.",
+      "A weight-loss app does not meet the plan's definition of a comprehensive weight management program."
+    ],
+    "missing_or_weak_evidence": [
+      "Documentation of a physician-office-based comprehensive weight management program (as opposed to app-based tracking)."
+    ],
+    "cited_authorities": [
+      "Singh G, Krauthamer M, Bjalme-Evans M. Wegovy (semaglutide): a new weight loss drug for chronic weight management. J Investig Med. 2022;70(1):5-13.",
+      "Rubino D, et al. Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance: STEP 4 RCT. JAMA. 2021 Apr 13;325(14):1414-1425.",
+      "Wegovy FDA label, 2021."
+    ],
+    "outcome_revealing_phrases_removed": [
+      "The denial is upheld.",
+      "The treatment with Wegovy is not medically necessary.",
+      "the requested Wegovy is not medically necessary"
+    ],
+    "source_hash": "7fdd3cec5fddcdf84bea1c1287f2c30af916cc4f1ca3d9ed84bba386775b08e4",
+    "preparer": "Sophia Stolte - field-by-field verification against the source snapshot completed",
+    "reviewer": "pending_second_pass_leakage_review",
+    "approval_status": "pending_founder_review",
+    "founder_reviewed": false
+  },
+  "structural_score": {
+    "case_id": "NYDEV-007",
+    "run_id": "v2-aug18",
+    "structural": {
+      "schema_valid": true,
+      "all_sections_present": true,
+      "citations_resolve": true,
+      "forbidden_claims_found": [],
+      "empty_sections": [],
+      "leakage_scan_clean": true
+    },
+    "automatic_hard_failure": {
+      "failed": false,
+      "reasons": []
+    },
+    "rubric": {
+      "label": "provisional\u2014expert review required",
+      "dimensions": {},
+      "total": null
+    }
+  },
+  "rubric_to_fill": {
+    "label": "provisional\u2014expert review required",
+    "reviewer": "",
+    "dimensions": {
+      "factual_grounding": {
+        "max_points": 25,
+        "points": null,
+        "notes": ""
+      },
+      "issue_and_denial_analysis": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "missing_information_detection": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "evidence_strategy": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "appeal_draft_usability": {
+        "max_points": 15,
+        "points": null,
+        "notes": ""
+      },
+      "procedure_and_source_applicability": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      },
+      "uncertainty_and_outcome_estimate": {
+        "max_points": 5,
+        "points": null,
+        "notes": ""
+      },
+      "safety_and_escalation": {
+        "max_points": 10,
+        "points": null,
+        "notes": ""
+      }
+    },
+    "total": null
+  }
+}
