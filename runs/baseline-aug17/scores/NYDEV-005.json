@@ -1,0 +1,21 @@
+{
+  "case_id": "NYDEV-005",
+  "run_id": "baseline-aug17",
+  "structural": {
+    "schema_valid": false,
+    "all_sections_present": true,
+    "citations_resolve": true,
+    "forbidden_claims_found": [],
+    "empty_sections": [],
+    "leakage_scan_clean": true
+  },
+  "automatic_hard_failure": {
+    "failed": false,
+    "reasons": []
+  },
+  "rubric": {
+    "label": "provisional\u2014expert review required",
+    "dimensions": {},
+    "total": null
+  }
+}
